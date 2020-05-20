@@ -1,14 +1,14 @@
 extractData=function(d,pid){
   stim=d$sender=="Stim"
-  resp=d$sender=="Resp"
+  respEvent=d$sender=="Resp"
   sessionID=d$observation[stim]
   ntrials=table(sessionID)
   participantID=rep(pid,ntrials)
   targ=d[stim,]$targ
   back=d[stim,]$targ
   morph=d[stim,]$morph
-  resp=d[resp,]$response
-  rt=d[resp,]$duration
+  resp=d[respEvent,]$response
+  rt=d[respEvent,]$duration
   out=data.frame(participantID,sessionID,targ,back,morph,resp,rt)
   colnames(out)=c("participantID",
                   "sessionID",
