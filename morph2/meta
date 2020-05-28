@@ -1,4 +1,12 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
+12 6cc1f 1440 900 en-US 2020-05-28 05:50:03 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
 8 76f95 1440 900 en-US 2020-05-28 01:01:38 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+13 7b38f 1280 720 zh-CN 2020-05-28 06:28:00 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+16 803b0 1440 900 en-US 2020-05-28 09:47:19 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 10 8a156 1280 800 en-us 2020-05-28 02:11:21 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+11 915c6 1920 1080 en-US 2020-05-28 04:10:44 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+17 a72ba 1440 900 en-US 2020-05-28 18:08:08 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36
 9 cee74 1440 900 en-US 2020-05-28 01:09:55 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+14 20572 1368 912 en-US 2020-05-28 08:52:54 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+14 43ca4 1368 912 en-US 2020-05-28 09:23:41 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+14 f1e7c 1368 912 en-US 2020-05-28 09:23:25 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
