@@ -6,7 +6,7 @@ extractData=function(d,pid){
   sessionID=d$observation[stim] # stimulus session ID
   sessionID2 <- d[respEvent,]$observation # response session ID
   stimrespmatch <- match(table(sessionID), table(sessionID2))
-  goodsessID <- names(table(sessionID)[which(stimrespmatch == 2)])
+  goodsessID <- names(table(sessionID)[which(!is.na(stimrespmatch))])
   sessionID.common <- sessionID[sessionID %in% goodsessID]
   
   # ntrials=table(sessionID)
