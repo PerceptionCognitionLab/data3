@@ -1,0 +1,4 @@
+participantID sessionID xres yres lang timeStamp timeZone agent
+8 76f95 1440 900 en-US 2020-05-28 01:01:38 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+10 8a156 1280 800 en-us 2020-05-28 02:11:21 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+9 cee74 1440 900 en-US 2020-05-28 01:09:55 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
