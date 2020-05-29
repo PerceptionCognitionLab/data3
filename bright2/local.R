@@ -11,7 +11,7 @@ extractData=function(d,pid){
   
   ntrials <- table(sessionID)
   partID <- pid[[1]][!duplicated(pid[[2]])] ##Remove participant ID if session ID is used double
-  partID <- partID[-is.na(stimrespmatch)]
+  partID <- partID[-which(is.na(stimrespmatch))]
   participantID <- rep(partID, table(sessionID.common))
   
   # Get stimulus information
