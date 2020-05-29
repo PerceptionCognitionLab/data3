@@ -9,8 +9,10 @@ extractData=function(d,pid){
   goodsessID <- names(table(sessionID)[which(!is.na(stimrespmatch))])
   sessionID.common <- sessionID[sessionID %in% goodsessID]
   
-  # ntrials=table(sessionID)
-  # participantID=rep(pid, each = table(sessionID))
+  ntrials <- table(sessionID)
+  partID <- pid[[1]][!duplicated(pid[[2]])] ##Remove participant ID if session ID is used double
+  partID <- partID[-is.na(stimrespmatch)]
+  participantID <- rep(partID, table(sessionID.common))
   
   # Get stimulus information
   targ=d[stim,]$targ
@@ -25,9 +27,8 @@ extractData=function(d,pid){
   resp.df <- data.frame(resp, rt)
   resp.df <- subset(resp.df, sessionID2 %in% goodsessID)
   
-  out= cbind(sessionID.common, stim.df, resp.df)
-  colnames(out)=c(
-    #"participantID",
+  out= cbind(participantID, sessionID.common, stim.df, resp.df)
+  colnames(out)=c("participantID",
                   "sessionID",
                   "target",
                   "background",
