@@ -2,17 +2,25 @@ extractData=function(d,pid){
   stim=d$sender=="Stim"
   respEvent=d$sender=="Resp"
   
+  ## new table function that does not sort
+  getTable <- function(vec){
+    unique_names <- unique(vec)
+    table_r <- sapply(unique_names, function(x) sum(vec==x))
+    names(table_r) <- unique_names
+    return(table_r)
+  }
+  
   ## Get the participants who actually responded to every stimulus
-  sessionID=d$observation[stim] # stimulus session ID
+  sessionID <- d$observation[stim] # stimulus session ID
   sessionID2 <- d[respEvent,]$observation # response session ID
-  stimrespmatch <- match(table(sessionID), table(sessionID2))
-  goodsessID <- names(table(sessionID)[which(!is.na(stimrespmatch))])
+  stimrespmatch <- match(getTable(sessionID), getTable(sessionID2))
+  goodsessID <- names(getTable(sessionID)[which(!is.na(stimrespmatch))])
   sessionID.common <- sessionID[sessionID %in% goodsessID]
   
-  ntrials <- table(sessionID)
+  ntrials <- getTable(sessionID.common)
   partID <- pid[[1]][!duplicated(pid[[2]])] ##Remove participant ID if session ID is used double
   partID <- partID[-which(is.na(stimrespmatch))]
-  participantID <- rep(partID, table(sessionID.common))
+  participantID <- rep(partID, getTable(sessionID.common))
   
   # Get stimulus information
   targ=d[stim,]$targ
