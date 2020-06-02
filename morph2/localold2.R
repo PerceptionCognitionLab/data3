@@ -14,16 +14,13 @@ extractData=function(d,pid){
   sessionID <- d$observation[stim] # stimulus session ID
   sessionID2 <- d[respEvent,]$observation # response session ID
   stimrespmatch <- match(getTable(sessionID), getTable(sessionID2))
-  IDnotinResp <- which(is.na(stimrespmatch))
-  goodsessID <- names(getTable(sessionID)[-IDnotinResp])
+  goodsessID <- names(getTable(sessionID)[which(!is.na(stimrespmatch))])
   sessionID.common <- sessionID[sessionID %in% goodsessID]
   
   ntrials <- getTable(sessionID.common)
-  IDnotinStim <- which(is.na(match(pid[[2]], unique(sessionID))))
   partID <- pid[[1]][!duplicated(pid[[2]])] ##Remove participant ID if session ID is used double
-  partID <- partID[-IDnotinStim]
-  partID <- partID[-IDnotinResp]
-  participantID <- rep(partID, ntrials)
+  partID <- partID[-which(is.na(stimrespmatch))]
+  participantID <- rep(partID, getTable(sessionID.common))
   
   # Get stimulus information
   targ=d[stim,]$targ
