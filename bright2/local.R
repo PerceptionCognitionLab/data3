@@ -19,9 +19,8 @@ extractData=function(d,pid){
   sessionID.common <- sessionID[sessionID %in% goodsessID]
   
   ntrials <- getTable(sessionID.common)
-  IDnotinStim <- which(is.na(match(pid[[2]], unique(sessionID))))
-  partID <- pid[[1]][!duplicated(pid[[2]])] ##Remove participant ID if session ID is used double
-  partID <- partID[-IDnotinStim]
+  IDnotinStim <- is.na(match(pid[[2]], unique(sessionID)))
+  partID <- pid[[1]][!duplicated(pid[[2]]) & !IDnotinStim] ##Remove participant ID if session ID is used double
   partID <- partID[-IDnotinResp]
   participantID <- rep(partID, ntrials)
   
