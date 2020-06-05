@@ -3,8 +3,8 @@ trialFun=function(x) as.integer(ifelse(length(x)==5,x[4],x[3]))
 
 extractData=function(d){
   resp=d$sender=="Resp"
-  dat0=data.frame(d$observation,d$timestamp,d$sender,d$sender_id,d$targ,d$back,d$morph,d$response,round(d$duration))
-  colnames(dat0)=c("sid","timestamp","sender","sender_id","targ","back","morph","resp","rt")
+  dat0=data.frame(d$observation,d$timestamp,d$sender_id,d$targ,d$back,d$morph,d$response,round(d$duration))
+  colnames(dat0)=c("sid","timestamp","sender_id","targ","back","morph","resp","rt")
   datR=dat0[resp,]
   good=!duplicated(cbind(datR$timestamp,datR$sid))
   dat=datR[good,]
