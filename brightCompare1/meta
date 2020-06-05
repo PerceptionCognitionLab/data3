@@ -1,0 +1,4 @@
+participantID sessionID xres yres lang timeStamp timeZone agent
+19 09e05 1680 1050 en-US 2020-06-03 20:09:31 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+6 5119b 1440 900 de 2020-06-03 19:29:58 Europe/Zurich Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:76.0) Gecko/20100101 Firefox/76.0
+1 7e014 2560 1440 en-US 2020-06-03 19:26:24 Europe/Amsterdam Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
