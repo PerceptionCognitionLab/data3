@@ -1,0 +1,682 @@
+{
+  "components": {
+    "1": {
+      "id": "1",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Stim",
+      "responses": {
+        "rows": []
+      },
+      "timeout": "200",
+      "_tab": "Content",
+      "content": [
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "-60",
+          "top": 0,
+          "width": 200,
+          "height": 50,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 5,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "-70",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "12",
+          "x1": -100,
+          "x2": 100,
+          "y1": -25,
+          "y2": 25
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "60",
+          "top": 0,
+          "width": 200,
+          "height": 50,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 5,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "70",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "13",
+          "x1": -100,
+          "x2": 100,
+          "y1": -25,
+          "y2": 25
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "-20",
+          "width": "${parameters.topLength}",
+          "height": 50,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "14",
+          "x1": -50,
+          "x2": 50,
+          "y1": -25,
+          "y2": 25
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "50",
+          "width": "${parameters.bottomLength}",
+          "height": 50,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "15",
+          "x1": -40,
+          "x2": 40,
+          "y1": -25,
+          "y2": 25
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "type": "lab.canvas.Screen",
+      "content": [],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Fore",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "3": {
+      "id": "3",
+      "type": "lab.canvas.Screen",
+      "content": [],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Resp",
+      "_tab": "Behavior",
+      "responses": {
+        "rows": [
+          [
+            "Top",
+            "keydown",
+            "",
+            "t"
+          ],
+          [
+            "Bottom",
+            "keydown",
+            "",
+            "b"
+          ]
+        ]
+      },
+      "correctResponse": "${parameters.correctResp}"
+    },
+    "4": {
+      "id": "4",
+      "type": "lab.canvas.Screen",
+      "content": [],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "FeedBack",
+      "_tab": "Behavior",
+      "timeout": "500",
+      "tardy": true,
+      "timeline": [
+        {
+          "type": "oscillator",
+          "start": 0,
+          "stop": "188",
+          "priority": 0,
+          "payload": {
+            "pan": "",
+            "rampUp": "50",
+            "rampDown": "50",
+            "frequency": "${state.correct ? 500 : 300 }"
+          }
+        },
+        {
+          "type": "oscillator",
+          "payload": {
+            "pan": "",
+            "rampUp": "50",
+            "rampDown": "50",
+            "frequency": "${state.correct ? 1000 : 200 }"
+          },
+          "start": "199",
+          "stop": "398",
+          "priority": 1
+        }
+      ]
+    },
+    "5": {
+      "id": "5",
+      "type": "lab.flow.Sequence",
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Trial",
+      "children": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    "6": {
+      "id": "6",
+      "type": "lab.flow.Loop",
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "children": [
+        "5"
+      ],
+      "title": "Task",
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "bottomLength",
+            "type": "string"
+          },
+          {
+            "name": "topLength",
+            "type": "string"
+          },
+          {
+            "name": "correctResp",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "75",
+            "70",
+            "Bottom"
+          ],
+          [
+            "65",
+            "70",
+            "Top"
+          ],
+          [
+            "65",
+            "60",
+            "Bottom"
+          ],
+          [
+            "55",
+            "60",
+            "Top"
+          ],
+          [
+            "55",
+            "50",
+            "Bottom"
+          ],
+          [
+            "45",
+            "50",
+            "Top"
+          ]
+        ]
+      },
+      "sample": {
+        "mode": "draw-shuffle",
+        "n": "200"
+      }
+    },
+    "7": {
+      "id": "7",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 298.83,
+          "height": 287.83,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Which Line is Longer\nT: Top Line\nB: Bottom Line\n\n(200 trials)\nGet Ready\nAny Key to Start",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        }
+      ],
+      "title": "Start",
+      "_tab": "Behavior",
+      "responses": {
+        "rows": [
+          [
+            "any",
+            "keydown",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "root": {
+      "id": "root",
+      "title": "root",
+      "type": "lab.flow.Sequence",
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "plugins": [
+        {
+          "type": "lab.plugins.Metadata"
+        }
+      ],
+      "metadata": {
+        "title": "ponzo1",
+        "description": "",
+        "repository": "",
+        "contributors": ""
+      },
+      "children": [
+        "7",
+        "6"
+      ]
+    }
+  },
+  "version": [
+    20,
+    0,
+    1
+  ],
+  "files": {
+    "files": {
+      "index.html": {
+        "content": "data:text/html,%3C!doctype%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Ctitle%3EExperiment%3C%2Ftitle%3E%0A%20%20%3C!--%20viewport%20setup%20--%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%22%3E%0A%20%20%3C!--%20lab.js%20library%20and%20experiment%20code%20--%3E%0A%20%20%24%7B%20header%20%7D%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3C!--%20If%20you'd%20rather%20have%20a%20container%20with%20a%20fixed%20width%0A%20%20%20%20%20%20%20and%20variable%20height%2C%20try%20removing%20the%20fullscreen%20class%20below%20--%3E%0A%20%20%3Cdiv%20class%3D%22container%20fullscreen%22%20data-labjs-section%3D%22main%22%3E%0A%20%20%20%20%3Cmain%20class%3D%22content-vertical-center%20content-horizontal-center%22%3E%0A%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%3Ch2%3ELoading%20Experiment%3C%2Fh2%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EThe%20experiment%20is%20loading%20and%20should%20start%20in%20a%20few%20seconds%3C%2Fp%3E%0A%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3C%2Fmain%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A",
+        "source": "library"
+      },
+      "style.css": {
+        "content": "data:text/css,%2F*%20Please%20define%20your%20custom%20styles%20here%20*%2F",
+        "source": "library"
+      }
+    },
+    "bundledFiles": {
+      "lib/lab.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.js.map": {
+        "type": "text/plain"
+      },
+      "lib/lab.fallback.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.legacy.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.legacy.js.map": {
+        "type": "text/plain"
+      },
+      "lib/lab.css": {
+        "type": "text/css"
+      },
+      "lib/loading.svg": {
+        "type": "image/svg+xml"
+      }
+    }
+  }
+}
