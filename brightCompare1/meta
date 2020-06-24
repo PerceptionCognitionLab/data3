@@ -1,5 +1,14 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
+41 01d6f469-0 1280 720 de 2020-06-24 16:55:13 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0
 19 09e058ba-6 1680 1050 en-US 2020-06-03 20:09:31 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+44 0e628743-4 1366 768 nl-NL 2020-06-24 16:55:55 Europe/Amsterdam Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+40 36869f1b-2 1280 720 de 2020-06-24 16:54:59 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0
+42 43807aec-4 1536 864 de 2020-06-24 16:55:05 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0
 6 5119b474-f 1440 900 de 2020-06-03 19:29:58 Europe/Zurich Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:76.0) Gecko/20100101 Firefox/76.0
+43 563a2157-1 1536 864 de-DE 2020-06-24 16:55:40 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
 1 7e014eab-2 2560 1440 en-US 2020-06-03 19:26:24 Europe/Amsterdam Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+38 ac28d24e-3 1920 1080 de 2020-06-24 16:53:55 Europe/Berlin Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0
+39 b007c58d-2 1920 1080 es-ES 2020-06-24 16:53:37 America/Mexico_City Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37 b5e8602c-7 1920 1080 en-GB 2020-06-24 16:53:03 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
 36 c211d741-8 1920 1080 en 2020-06-09 20:51:02 America/Chicago Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+40 7b71b7a4-d 1280 720 de 2020-06-24 16:54:34 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0
