@@ -1,0 +1,6108 @@
+{
+  "components": {
+    "1": {
+      "id": "1",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Stim",
+      "responses": {
+        "rows": []
+      },
+      "timeout": "167",
+      "_tab": "Content",
+      "content": [
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -50,
+          "width": "${ parameters.topLength }",
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "16",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 50,
+          "width": "${ parameters.bottomLength }",
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "17",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "262",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "263",
+          "styles": {}
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "273",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "274",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 18.69,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "+",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "15",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Fix",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "3": {
+      "id": "3",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "284",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "285",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Resp",
+      "_tab": "Behavior",
+      "responses": {
+        "rows": [
+          [
+            "t",
+            "keypress",
+            "",
+            "t"
+          ],
+          [
+            "b",
+            "keypress",
+            "",
+            "b"
+          ]
+        ]
+      },
+      "correctResponse": "${parameters.correctResp}"
+    },
+    "4": {
+      "id": "4",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "295",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "296",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 513.5,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${ state.correct ? 'Correct!' : 'Error!' }",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "16",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "FeedBack",
+      "_tab": "Behavior",
+      "timeout": "1000",
+      "tardy": true,
+      "timeline": [
+        {
+          "type": "oscillator",
+          "start": 0,
+          "stop": "188",
+          "priority": 0,
+          "payload": {
+            "pan": "",
+            "rampUp": "50",
+            "rampDown": "50",
+            "frequency": "${state.correct ? 500 : 300 }"
+          }
+        },
+        {
+          "type": "oscillator",
+          "payload": {
+            "pan": "",
+            "rampUp": "50",
+            "rampDown": "50",
+            "frequency": "${state.correct ? 1000 : 200 }"
+          },
+          "start": "199",
+          "stop": "398",
+          "priority": 1
+        }
+      ]
+    },
+    "5": {
+      "id": "5",
+      "type": "lab.flow.Sequence",
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Trial",
+      "children": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    "6": {
+      "id": "6",
+      "type": "lab.flow.Loop",
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "children": [
+        "5"
+      ],
+      "title": "Trial loop: blank",
+      "sample": {
+        "mode": "draw-shuffle",
+        "n": "4"
+      },
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "topLength",
+            "type": "string"
+          },
+          {
+            "name": "bottomLength",
+            "type": "string"
+          },
+          {
+            "name": "correctResp",
+            "type": "string"
+          },
+          {
+            "name": "arrowTop",
+            "type": "string"
+          },
+          {
+            "name": "arrowBottom",
+            "type": "string"
+          },
+          {
+            "name": "adjustTop",
+            "type": "string"
+          },
+          {
+            "name": "adjustBottom",
+            "type": "string"
+          },
+          {
+            "name": "degTop",
+            "type": "string"
+          },
+          {
+            "name": "degBott",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "150",
+            "250",
+            "b",
+            "out",
+            "in",
+            "57",
+            "142",
+            "-45",
+            "45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "out",
+            "in",
+            "107",
+            "92",
+            "-45",
+            "45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "in",
+            "out",
+            "92",
+            "107",
+            "45",
+            "-45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "in",
+            "out",
+            "142",
+            "57",
+            "45",
+            "-45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "in",
+            "in",
+            "142",
+            "92",
+            "45",
+            "45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "out",
+            "out",
+            "57",
+            "107",
+            "-45",
+            "-45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "in",
+            "in",
+            "92",
+            "142",
+            "45",
+            "45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "out",
+            "out",
+            "107",
+            "57",
+            "-45",
+            "-45"
+          ]
+        ]
+      }
+    },
+    "7": {
+      "id": "7",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": [
+          [
+            {
+              "localPath": "exampleScreen.png",
+              "poolPath": "embedded/850c0672c9c77cf175a6df32909a9ff1d50714227497df2b30101c5b4bb8571b.png"
+            }
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "add new column",
+              "message": "before:prepare",
+              "code": "const queryString = window.location.search;\nconst urlParams = new URLSearchParams(queryString);\nconst pid = urlParams.get('pid');\nthis.parameters.pid = pid"
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 763.01,
+          "height": 245.89,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Thank you for participating in this experiment.\n\nThe experiment will consist of one task with 200 trials.\nThe task will take around 10-15 minutes to complete. \n\nPress the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        }
+      ],
+      "title": "StartExp0",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      }
+    },
+    "8": {
+      "id": "8",
+      "type": "lab.html.Screen",
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "message",
+              "value": "Transferring data",
+              "type": "string"
+            }
+          ],
+          [
+            {
+              "name": "subtitle",
+              "value": "Please wait a second…",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "run",
+              "code": "const transmitPlugins = this.parents[0].plugins.plugins\n  .filter(p => p instanceof lab.plugins.Transmit)\n\nif (transmitPlugins.length > 0) {\n  // If a transmitPlugin is available,\n  // pull out its options and transfer the data\n  const ds = this.options.datastore\n  const tp = transmitPlugins[0]\n  ds.transmit(\n    tp.url,\n    { ...tp.metadata, payload: 'full' },\n    { headers: tp.headers, encoding: tp.encoding },\n  ).then(\n    () => this.end('transmission successful')\n  ).catch(\n    () => this.end('transmission failed')\n  )\n} else if ('jatos' in window) {\n  // If JATOS is available, send data there\n  jatos.submitResultData(\n    this.options.datastore.exportJson(),\n    () => this.end('transmission successful'),\n    () => this.end('transmission failed')\n  )\n} else {\n  this.end('no compatible backend')\n}"
+            }
+          ]
+        ]
+      },
+      "title": "Data transmission (beta)",
+      "content": "<main class=\"content-horizontal-center content-vertical-center\">\n  <div>\n    <img src=\"lib/loading.svg\">\n    <p>\n      <span class=\"font-weight-bold\">\n        ${ this.parameters.message }\n      </span><br>\n      <span class=\"text-muted\">\n        ${ this.parameters.subtitle }\n      </span>\n    </p>\n  </div>\n</main>",
+      "_tab": "Parameters",
+      "_template": true,
+      "notes": "This template transmits the study data to a compatible server-side backend. Currently, it supports the PHP, Open Lab and JATOS backends.\n\nIt will wait until the data is transferred, showing a waiting screen with the text defined below, and continue with the remainder of the study after the transmission is complete. Please note that this screen will be skipped if no compatible backend is available."
+    },
+    "9": {
+      "id": "9",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 466.66,
+          "height": 162,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Congratulations!\n\nYou completed the experiment.\nYou can now close your browser.",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        }
+      ],
+      "title": "End",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "any",
+            "keydown",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "14": {
+      "id": "14",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 711.69,
+          "height": 399.75,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "In this kind of experiment it is \nvery important to have a controlled environment.\n\nTherefore, we would like to ask you to perform this experiment \nin a quiet room without distractions. Please set this website to full screen \nmode and close all programs on your computer and tabs in your \ninternet browser. Please also move your mouse \ncursor off the screen.\n\nWe also ask you not to run music in the background.\n\nNext, we will provide some instructions regarding the task.\n\nPress the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        }
+      ],
+      "title": "StartExp1",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      }
+    },
+    "17": {
+      "id": "17",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": [
+          [
+            {
+              "localPath": "exampleScreen.png",
+              "poolPath": "embedded/850c0672c9c77cf175a6df32909a9ff1d50714227497df2b30101c5b4bb8571b.png"
+            }
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -200,
+          "width": 507.44,
+          "height": 111.37,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "In this task, you will complete 1 block with 200 trials.\n\nIn each trial, you will see two lines; \none at the top and one at the bottom.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 200,
+          "width": 309.41,
+          "height": 24.86,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Press the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "145",
+          "styles": {}
+        },
+        {
+          "type": "image",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "0",
+          "width": 392.36,
+          "height": 223.72000000000003,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 0,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 0.34,
+          "scaleY": 0.34,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "crossOrigin": "",
+          "cropX": 0,
+          "cropY": 0,
+          "id": "222",
+          "src": "${ this.files[\"exampleScreen.png\"] }",
+          "filters": [],
+          "naturalWidth": 1154,
+          "naturalHeight": 658
+        }
+      ],
+      "title": "StartExp2",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      }
+    },
+    "19": {
+      "id": "19",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": [
+          [
+            {
+              "localPath": "exampleScreen.png",
+              "poolPath": "embedded/850c0672c9c77cf175a6df32909a9ff1d50714227497df2b30101c5b4bb8571b.png"
+            }
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -200,
+          "width": 578.84,
+          "height": 82.54,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Your task is to identify as fast and as accurately as possible\nwhether the top line or the bottom line is longer.\nYou will learn more about the two categories shortly.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 200,
+          "width": 309.41,
+          "height": 24.86,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Press the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "145",
+          "styles": {}
+        },
+        {
+          "type": "image",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 392.36,
+          "height": 223.72000000000003,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 0,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 0.34,
+          "scaleY": 0.34,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "crossOrigin": "anonymous",
+          "cropX": 0,
+          "cropY": 0,
+          "id": "222",
+          "src": "${ this.files[\"exampleScreen.png\"] }",
+          "filters": [],
+          "naturalWidth": 1154,
+          "naturalHeight": 658
+        }
+      ],
+      "title": "StartExp3",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      }
+    },
+    "20": {
+      "id": "20",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": [
+          [
+            {
+              "localPath": "exampleScreen.png",
+              "poolPath": "embedded/850c0672c9c77cf175a6df32909a9ff1d50714227497df2b30101c5b4bb8571b.png"
+            }
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -200,
+          "width": 528.85,
+          "height": 53.7,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "If you think the top line is longer, press the \"T\" key.\nIf you think the bottom line is longer, press the \"B\" key.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 200,
+          "width": 309.41,
+          "height": 24.86,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Press the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "145",
+          "styles": {}
+        },
+        {
+          "type": "image",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "0",
+          "width": 392.36,
+          "height": 223.72000000000003,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 0,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 0.34,
+          "scaleY": 0.34,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "crossOrigin": "",
+          "cropX": 0,
+          "cropY": 0,
+          "id": "222",
+          "src": "${ this.files[\"exampleScreen.png\"] }",
+          "filters": [],
+          "naturalWidth": 1154,
+          "naturalHeight": 658
+        }
+      ],
+      "title": "StartExp4",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      }
+    },
+    "21": {
+      "id": "21",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": [
+          [
+            {
+              "localPath": "exampleScreen.png",
+              "poolPath": "embedded/850c0672c9c77cf175a6df32909a9ff1d50714227497df2b30101c5b4bb8571b.png"
+            }
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -200,
+          "width": 409.69,
+          "height": 24.86,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Here you see the two lengths of the lines. ",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 200,
+          "width": 309.41,
+          "height": 24.86,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Press the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "145",
+          "styles": {}
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "-50",
+          "width": "150",
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "251",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "50",
+          "width": "250",
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "252",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "title": "StartExp5",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      }
+    },
+    "22": {
+      "id": "22",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": [
+          [
+            {
+              "localPath": "exampleScreen.png",
+              "poolPath": "embedded/850c0672c9c77cf175a6df32909a9ff1d50714227497df2b30101c5b4bb8571b.png"
+            }
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -200,
+          "width": 605.02,
+          "height": 53.7,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "For instance, in the scenario below the bottom line is longer. \nThis means that the correct response in this trial would be \"B\".",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 200,
+          "width": 309.41,
+          "height": 24.86,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Press the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "145",
+          "styles": {}
+        },
+        {
+          "type": "image",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 392.36,
+          "height": 223.72000000000003,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 0,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 0.34,
+          "scaleY": 0.34,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "crossOrigin": "anonymous",
+          "cropX": 0,
+          "cropY": 0,
+          "id": "222",
+          "src": "${ this.files[\"exampleScreen.png\"] }",
+          "filters": [],
+          "naturalWidth": 1154,
+          "naturalHeight": 658
+        }
+      ],
+      "title": "StartExp6",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      }
+    },
+    "26": {
+      "id": "26",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 679.96,
+          "height": 197.89,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Importantly, in each trial the line lengths and the\norientation of the arrows on both ends of the lines will change.\n\nHowever, your task is to focus solely on the line lengths and to ignore \nthe arrows. Perform the task as fast and as accurately as possible.\n\nPress the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "165",
+          "styles": {}
+        }
+      ],
+      "title": "StartExp7",
+      "_tab": "Content",
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      }
+    },
+    "29": {
+      "id": "29",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 653.03,
+          "height": 140.21,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "The aim of the first warm-up block is to familiarize you with\nthe task. For this reason, you will initially only see and judge \nwhether the top line or the bottom line is longer without any arrows.\n\nPress the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "93",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Instructions Practice Trial 1",
+      "_tab": "Content"
+    },
+    "30": {
+      "id": "30",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "29",
+        "31",
+        "6",
+        "32"
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Practice Trial 1",
+      "_tab": "Content"
+    },
+    "31": {
+      "id": "31",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 582.79,
+          "height": 53.7,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Place your fingers on the \"T\" and \"B\" letter on the keyboard,\nthen spress the spacebar to begin the first warm-up block.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "94",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Instructions Practice Trial 2",
+      "_tab": "Behavior"
+    },
+    "32": {
+      "id": "32",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 496.51,
+          "height": 82.54,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "This was the first warm-up.\n\nPress the spacebar to continue with the next block.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "95",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "End Practice Trial",
+      "_tab": "Behavior"
+    },
+    "34": {
+      "id": "34",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 582.79,
+          "height": 111.37,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Block ${ parameters.block }\n\nPlace your fingers on the \"T\" and \"B\" letter on the keyboard,\nthen press the spacebar to begin the block.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "120",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "initialize parameters for pop-up warning",
+              "message": "run",
+              "code": "const totalNumberOfCorrectResponses = 0\nconst trialCount = 0\n\nthis.parameters.totalNumberOfCorrectResponses = totalNumberOfCorrectResponses\nthis.parameters.trialCount = trialCount"
+            }
+          ]
+        ]
+      },
+      "title": "Start of Block",
+      "_tab": "Behavior"
+    },
+    "36": {
+      "id": "36",
+      "type": "lab.flow.Loop",
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "children": [
+        "37"
+      ],
+      "title": "Trial loop: exp",
+      "sample": {
+        "mode": "draw-replace",
+        "n": "200"
+      },
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "topLength",
+            "type": "string"
+          },
+          {
+            "name": "bottomLength",
+            "type": "string"
+          },
+          {
+            "name": "correctResp",
+            "type": "string"
+          },
+          {
+            "name": "arrowTop",
+            "type": "string"
+          },
+          {
+            "name": "arrowBottom",
+            "type": "string"
+          },
+          {
+            "name": "adjustTop",
+            "type": "string"
+          },
+          {
+            "name": "adjustBottom",
+            "type": "string"
+          },
+          {
+            "name": "degTop",
+            "type": "string"
+          },
+          {
+            "name": "degBott",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "150",
+            "250",
+            "b",
+            "out",
+            "in",
+            "57",
+            "142",
+            "-45",
+            "45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "out",
+            "in",
+            "107",
+            "92",
+            "-45",
+            "45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "in",
+            "out",
+            "92",
+            "107",
+            "45",
+            "-45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "in",
+            "out",
+            "142",
+            "57",
+            "45",
+            "-45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "in",
+            "in",
+            "142",
+            "92",
+            "45",
+            "45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "out",
+            "out",
+            "57",
+            "107",
+            "-45",
+            "-45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "in",
+            "in",
+            "92",
+            "142",
+            "45",
+            "45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "out",
+            "out",
+            "107",
+            "57",
+            "-45",
+            "-45"
+          ]
+        ]
+      }
+    },
+    "37": {
+      "id": "37",
+      "type": "lab.flow.Sequence",
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Trial",
+      "children": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ]
+    },
+    "38": {
+      "id": "38",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "273",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "274",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 18.69,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "+",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "15",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Fix",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "39": {
+      "id": "39",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Stim",
+      "responses": {
+        "rows": []
+      },
+      "timeout": "167",
+      "_tab": "Behavior",
+      "content": [
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -50,
+          "width": "${ parameters.topLength }",
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "16",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 50,
+          "width": "${ parameters.bottomLength }",
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "17",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ -parameters.adjustBottom }",
+          "top": 33,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ parameters.degBott }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "18",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ -parameters.adjustTop }",
+          "top": -32,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ -parameters.degTop }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "19",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ parameters.adjustBottom }",
+          "top": 33,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ -parameters.degBott }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "20",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ -parameters.adjustBottom }",
+          "top": 68,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ -parameters.degBott }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "21",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ parameters.adjustTop }",
+          "top": -68,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ -parameters.degTop }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "22",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ parameters.adjustTop }",
+          "top": -33,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ parameters.degTop }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "23",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ -parameters.adjustTop }",
+          "top": -68,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ parameters.degTop }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "24",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ parameters.adjustBottom }",
+          "top": 68,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ parameters.degBott }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "25",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "262",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "263",
+          "styles": {}
+        }
+      ]
+    },
+    "40": {
+      "id": "40",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "284",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "285",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Resp",
+      "_tab": "Behavior",
+      "responses": {
+        "rows": [
+          [
+            "t",
+            "keypress",
+            "",
+            "t"
+          ],
+          [
+            "b",
+            "keypress",
+            "",
+            "b"
+          ]
+        ]
+      },
+      "correctResponse": "${parameters.correctResp}"
+    },
+    "41": {
+      "id": "41",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "295",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "296",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 513.5,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${ state.correct ? 'Correct!' : 'Error!' }",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "16",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "show pop-up warning if accuracy is low",
+              "message": "end",
+              "code": "this.parameters.totalNumberOfCorrectResponses = this.state.totalNumberOfCorrectResponses + this.state.correct\nthis.parameters.trialCount = this.state.trialCount + 1\n\nconst percentCorrect = (this.state.totalNumberOfCorrectResponses / this.state.trialCount) * 100\nthis.parameters.percentCorrect = percentCorrect\n\nif (this.state.percentCorrect < 70 && this.state.trialCount >= 40) {\n    alert('\\nYour accuracy is below 70%.\\nTry to concentrate better on the task \\nand remove any distractions.\\n\\nRemember: you need to judge whether the\\ntop or the bottom line is longer.');\n    /* reset values after people received a warning message to monitor progress */\n    const totalNumberOfCorrectResponses = 0\n    const trialCount = 0\n\n    this.parameters.totalNumberOfCorrectResponses = totalNumberOfCorrectResponses\n    this.parameters.trialCount = trialCount\n}"
+            }
+          ]
+        ]
+      },
+      "title": "FeedBack",
+      "_tab": "Scripts",
+      "timeout": "1000",
+      "tardy": true,
+      "timeline": [
+        {
+          "type": "oscillator",
+          "start": 0,
+          "stop": "188",
+          "priority": 0,
+          "payload": {
+            "pan": "",
+            "rampUp": "50",
+            "rampDown": "50",
+            "frequency": "${state.correct ? 500 : 300 }"
+          }
+        },
+        {
+          "type": "oscillator",
+          "payload": {
+            "pan": "",
+            "rampUp": "50",
+            "rampDown": "50",
+            "frequency": "${state.correct ? 1000 : 200 }"
+          },
+          "start": "199",
+          "stop": "398",
+          "priority": 1
+        }
+      ]
+    },
+    "43": {
+      "id": "43",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "44",
+        "45",
+        "46",
+        "52"
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Practice Trial 2"
+    },
+    "44": {
+      "id": "44",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 746,
+          "height": 197.89,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "In this block, as in the real experiment, you will see the lines\nwith chaning arrows on both ends. As explained earlier, your task is to judge \nwhether the top line or the bottom line is longer.\n\nComplete the task as fast and as accurately as possible.\n\nPress the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "107",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Instructions Practice Trial 1",
+      "_tab": "Behavior"
+    },
+    "45": {
+      "id": "45",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 600.46,
+          "height": 53.7,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Place your fingers on the \"T\" and \"B\" letter on the keyboard,\nthen spress the spacebar to begin the second warm-up block.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "108",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Instructions Practice Trial 2",
+      "_tab": "Behavior"
+    },
+    "46": {
+      "id": "46",
+      "type": "lab.flow.Loop",
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "children": [
+        "47"
+      ],
+      "title": "Trial loop: full",
+      "sample": {
+        "mode": "draw",
+        "n": "8"
+      },
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "topLength",
+            "type": "string"
+          },
+          {
+            "name": "bottomLength",
+            "type": "string"
+          },
+          {
+            "name": "correctResp",
+            "type": "string"
+          },
+          {
+            "name": "arrowTop",
+            "type": "string"
+          },
+          {
+            "name": "arrowBottom",
+            "type": "string"
+          },
+          {
+            "name": "adjustTop",
+            "type": "string"
+          },
+          {
+            "name": "adjustBottom",
+            "type": "string"
+          },
+          {
+            "name": "degTop",
+            "type": "string"
+          },
+          {
+            "name": "degBott",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "150",
+            "250",
+            "b",
+            "out",
+            "in",
+            "57",
+            "142",
+            "-45",
+            "45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "out",
+            "in",
+            "107",
+            "92",
+            "-45",
+            "45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "in",
+            "out",
+            "92",
+            "107",
+            "45",
+            "-45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "in",
+            "out",
+            "142",
+            "57",
+            "45",
+            "-45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "in",
+            "in",
+            "142",
+            "92",
+            "45",
+            "45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "out",
+            "out",
+            "57",
+            "107",
+            "-45",
+            "-45"
+          ],
+          [
+            "150",
+            "250",
+            "b",
+            "in",
+            "in",
+            "92",
+            "142",
+            "45",
+            "45"
+          ],
+          [
+            "250",
+            "150",
+            "t",
+            "out",
+            "out",
+            "107",
+            "57",
+            "-45",
+            "-45"
+          ]
+        ]
+      }
+    },
+    "47": {
+      "id": "47",
+      "type": "lab.flow.Sequence",
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Trial",
+      "children": [
+        "48",
+        "49",
+        "50",
+        "51"
+      ]
+    },
+    "48": {
+      "id": "48",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "273",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "274",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 18.69,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "+",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "15",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Fix",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "49": {
+      "id": "49",
+      "type": "lab.canvas.Screen",
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Stim",
+      "responses": {
+        "rows": []
+      },
+      "timeout": "167",
+      "_tab": "Behavior",
+      "content": [
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -50,
+          "width": "${ parameters.topLength }",
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "16",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 50,
+          "width": "${ parameters.bottomLength }",
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "17",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ -parameters.adjustBottom }",
+          "top": 33,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ parameters.degBott }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "18",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ -parameters.adjustTop }",
+          "top": -32,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ -parameters.degTop }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "19",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ parameters.adjustBottom }",
+          "top": 33,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ -parameters.degBott }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "20",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ -parameters.adjustBottom }",
+          "top": 68,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ -parameters.degBott }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "21",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ parameters.adjustTop }",
+          "top": -68,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ -parameters.degTop }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "22",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ parameters.adjustTop }",
+          "top": -33,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ parameters.degTop }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "23",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ -parameters.adjustTop }",
+          "top": -68,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ parameters.degTop }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "24",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": "${ parameters.adjustBottom }",
+          "top": 68,
+          "width": 50,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 2,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": "${ parameters.degBott }",
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "id": "25",
+          "x1": -25,
+          "x2": 25,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "262",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "263",
+          "styles": {}
+        }
+      ]
+    },
+    "50": {
+      "id": "50",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "284",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "285",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Resp",
+      "_tab": "Behavior",
+      "responses": {
+        "rows": [
+          [
+            "t",
+            "keypress",
+            "",
+            "t"
+          ],
+          [
+            "b",
+            "keypress",
+            "",
+            "b"
+          ]
+        ]
+      },
+      "correctResponse": "${parameters.correctResp}"
+    },
+    "51": {
+      "id": "51",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -250,
+          "width": 44.49,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "top\nT",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "295",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 250,
+          "width": 97.83,
+          "height": 78.11,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "bottom\nB",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "296",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 513.5,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${ state.correct ? 'Correct!' : 'Error!' }",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "16",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "FeedBack",
+      "_tab": "Behavior",
+      "timeout": "1000",
+      "tardy": true,
+      "timeline": [
+        {
+          "type": "oscillator",
+          "start": 0,
+          "stop": "188",
+          "priority": 0,
+          "payload": {
+            "pan": "",
+            "rampUp": "50",
+            "rampDown": "50",
+            "frequency": "${state.correct ? 500 : 300 }"
+          }
+        },
+        {
+          "type": "oscillator",
+          "payload": {
+            "pan": "",
+            "rampUp": "50",
+            "rampDown": "50",
+            "frequency": "${state.correct ? 1000 : 200 }"
+          },
+          "start": "199",
+          "stop": "398",
+          "priority": 1
+        }
+      ]
+    },
+    "52": {
+      "id": "52",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 474.5,
+          "height": 82.54,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "This was the warm-up.\n\nPress the spacebar to begin the real experiment.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "111",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "End Practice Trial",
+      "_tab": "Behavior"
+    },
+    "54": {
+      "id": "54",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "34",
+        "36"
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Block"
+    },
+    "55": {
+      "id": "55",
+      "type": "lab.flow.Loop",
+      "children": [
+        "54"
+      ],
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "block",
+            "type": "string"
+          },
+          {
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "1",
+            ""
+          ]
+        ]
+      },
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "ExpLoop"
+    },
+    "56": {
+      "id": "56",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "3.5.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 598,
+          "height": 169.05,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "clipTo": null,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "transformMatrix": null,
+          "skewX": 0,
+          "skewY": 0,
+          "text": "We now start the real experiment. \n\nRemember: try to ignore the arrows and only judge the length\nof the lines.\n\nPress the spacebar to continue.",
+          "fontSize": "22",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "152",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": {
+        "rows": []
+      },
+      "responses": {
+        "rows": [
+          [
+            "go on",
+            "keypress",
+            "",
+            "Space"
+          ]
+        ]
+      },
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "messageHandlers": {
+        "rows": [
+          [
+            {
+              "title": "",
+              "message": "",
+              "code": ""
+            }
+          ]
+        ]
+      },
+      "title": "Instructions Experiment",
+      "_tab": "Behavior"
+    },
+    "root": {
+      "id": "root",
+      "title": "root",
+      "type": "lab.flow.Sequence",
+      "parameters": {
+        "rows": [
+          [
+            {
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        ]
+      },
+      "plugins": [
+        {
+          "type": "lab.plugins.Metadata"
+        }
+      ],
+      "children": [
+        "7",
+        "14",
+        "17",
+        "19",
+        "20",
+        "21",
+        "22",
+        "26",
+        "30",
+        "43",
+        "56",
+        "55",
+        "8",
+        "9"
+      ],
+      "metadata": {
+        "title": "Mueller_pilot",
+        "description": "",
+        "repository": "",
+        "contributors": ""
+      }
+    }
+  },
+  "version": [
+    20,
+    0,
+    1
+  ],
+  "files": {
+    "files": {
+      "index.html": {
+        "content": "data:text/html,%3C!doctype%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Ctitle%3EExperiment%3C%2Ftitle%3E%0A%20%20%3C!--%20viewport%20setup%20--%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%22%3E%0A%20%20%3C!--%20lab.js%20library%20and%20experiment%20code%20--%3E%0A%20%20%24%7B%20header%20%7D%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3C!--%20If%20you'd%20rather%20have%20a%20container%20with%20a%20fixed%20width%0A%20%20%20%20%20%20%20and%20variable%20height%2C%20try%20removing%20the%20fullscreen%20class%20below%20--%3E%0A%20%20%3Cdiv%20class%3D%22container%20fullscreen%22%20data-labjs-section%3D%22main%22%3E%0A%20%20%20%20%3Cmain%20class%3D%22content-vertical-center%20content-horizontal-center%22%3E%0A%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%3Ch2%3ELoading%20Experiment%3C%2Fh2%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EThe%20experiment%20is%20loading%20and%20should%20start%20in%20a%20few%20seconds%3C%2Fp%3E%0A%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3C%2Fmain%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A",
+        "source": "library"
+      },
+      "style.css": {
+        "content": "data:text/css,%2F*%20Please%20define%20your%20custom%20styles%20here%20*%2F",
+        "source": "library"
+      },
+      "embedded/850c0672c9c77cf175a6df32909a9ff1d50714227497df2b30101c5b4bb8571b.png": {
+        "content": "data:image/png;base64,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cHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CklqohgAAAAcaURPVAAAAAIAAAAAAAABSQAAACgAAAFJAAABSQAAKpqUUmFQAAAqZklEQVR4AezdPYhcZRfA8StYWKRJmqQQtBBNKenUQFQMyYtYqCDYiB+FWCgKgmJjUogRGwVRGz+wtEkjRkkwKAa7kFI77RQkaVJEEHydxV0368zsnblfz3nOL012d+be+5zfmeLl/ybxhr/+/tX4RYAAAQIECBAgQIAAAQIECBAgUL3ADUJQ9Ts2IAECBAgQIECAAAECBAgQIEBgQ0AI8kEgQIAAAQIECBAgQIAAAQIECCQREIKSLNqYBAgQIECAAAECBAgQIECAAAEhyGeAAAECBAgQIECAAAECBAgQIJBEQAhKsmhjEiBAgAABAgQIECBAgAABAgSEIJ8BAgQIECBAgAABAgQIECBAgEASASEoyaKNSYAAAQIECBAgQIAAAQIECBAQgnwGCBAgQIAAAQIECBAgQIAAAQJJBISgJIs2JgECBAgQIECAAAECBAgQIEBACPIZIECAAAECBAgQIECAAAECBAgkERCCkizamAQIECBAgAABAgQIECBAgAABIchngAABAgQIECBAgAABAgQIECCQREAISrJoYxIgQIAAAQIECBAgQIAAAQIEhCCfAQIECBAgQIAAAQIECBAgQIBAEgEhKMmijUmAAAECBAgQIECAAAECBAgQEIJ8BggQIECAAAECBAgQIECAAAECSQSEoCSLNiYBAgQIECBAgAABAgQIECBAQAjyGSBAgAABAgQIECBAgAABAgQIJBEQgpIs2pgECBAgQIAAAQIECBAgQIAAASHIZ4AAAQIECBAgQIAAAQIECBAgkERACEqyaGMSIECAAAECBAgQIECAAAECBIQgnwECBAgQIECAAAECBAgQIECAQBIBISjJoo1JgAABAgQIECBAgAABAgQIEBCCfAYIECBAgAABAgQIECBAgAABAkkEhKAkizYmAQIECBAgQIAAAQIECBAgQEAI8hkgQIAAAQIECBAgQIAAAQIECCQREIKSLNqYBAgQIECAAAECBAgQIECAAAEhyGeAAAECBAgQIECAAAECBAgQIJBEQAhKsmhjEiBAgAABAgQIECBAgAABAgSEIJ8BAgQIECBAgAABAgQIECBAgEASASEoyaKNSYAAAQIECBAgQIAAAQIECBAQgnwGCBAgQIAAAQIECBAgQIAAAQJJBISgJIs2JgECBAgQIECAAAECBAgQIEBACPIZIECAAAECBAgQIECAAAECBAgkERCCkizamAQIECBAgAABAgQIECBAgAABIchngAABAgQIECBAgAABAgQIECCQREAISrJoYxIgQIAAAQIECBAgQIAAAQIEhCCfAQIECBAgQIAAAQIECBAgQIBAEgEhKMmijUmAAAECBAgQIECAAAECBAgQEIJ8BggQIECAAAECBAgQIECAAAECSQSEoCSLNiYBAgQIECBAgAABAgQIECBAQAjyGSBAgAABAgQIECBAgAABAgQIJBEQgpIs2pgECBAgQIAAAQIECBAgQIAAASHIZ4AAAQIECBAgQIAAAQIECBAgkERACEqyaGMSIECAAAECBAgQIECAAAECBIQgnwECBAgQIECAAAECBAgQIECAQBIBISjJoo1JgAABAgQIECBAgAABAgQIEBCCfAYIECBAgAABAgQIECBAgAABAkkEhKAkizYmAQIECBAgQIAAAQIECBAgQEAI8hkgQIAAAQIECBAgQIAAAQIECCQREIKSLNqYBAgQIECAAAECBAgQIECAAAEhyGeAAAECBAgQIECAAAECBAgQIJBEQAhKsmhjEiBAgAABAgQIECBAgAABAgSEIJ8BAgQIECBAgAABAgQIECBAgEASASEoyaKNSYAAAQIECBAgQIAAAQIECBAQgnwGCBAgQIAAAQIECBAgQIAAAQJJBISgJIs2Zj0Cb7zxRvPcc881+/btq2cokxAgQIAAAQIECBQrcPny5ebDDz9sXnvttWLP6GAECLQXEILaW3kngckFXnrppeadd95pDh061Jw9e1YMmnwjDkCAAAECBAgQqFtgFoGOHj3aXLx4sXn55Zebt99+u+6BTUcggYAQlGDJRqxD4NVXX23eeuutrWHEoC0KXxAgQIAAAQIECAwgsD0Cbd7+lVdeaU6dOrX5rd8JEAgoIAQFXJoj5xM4ceJEc/Lkyf8MLgb9h8QPCBAgQIAAAQIEehCYF4E2b/v66683s/996hcBAjEFhKCYe3PqRALvvvtu8+KLLy6cWAxaSOMFAgQIECBAgACBNQSWRaDN273//vsb/27l5vd+J0AgjoAQFGdXTppU4JdffmmOHDnSzH5f9EsMWiTj5wQI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AAECgQSEoEDLclQCBAgQIECAAAECBAgQIECAQBcBIaiLnmsJECBAgAABAgQIECBAgAABAoEEhKBAy3JUAgQIECBAgAABAgQIECBAgEAXASGoi55rCRAgQIAAAQIECBAgQIAAAQKBBISgQMtyVAIECBAgQIAAAQIECBAgQIBAFwEhqIueawkQIECAAAECBAgQIECAAAECgQSEoEDLclQCBAgQIECAAAECBAgQIECAQBcBIaiLnmsJECBAgAABAgQIECBAgAABAoEEhKBAy3JUAgQIECBAgAABAgQIECBAgEAXASGoi55rCRAgQIAAAQIECBAgQIAAAQKBBISgQMtyVAIECBAgQIAAAQIECBAgQIBAFwEhqIueawkQIECAAAECBAgQIECAAAECgQSEoEDLclQCBAgQIECAAAECBAgQIECAQBcBIaiLnmsJECBAgAABAgQIECBAgAABAoEEhKBAy3JUAgQIECBAgAABAgQIECBAgEAXASGoi55rCRAgQIAAAQIECBAgQIAAAQKBBISgQMtyVAIECBAgQIAAAQIECBAgQIBAFwEhqIueawkQIECAAAECBAgQIECAAAECgQSEoEDLclQCBAgQIECAAAECBAgQIECAQBcBIaiLnmsJECBAgAABAgQIECBAgAABAoEEhKBAy3JUAgQIECBAgAABAgQIECBAgEAXASGoi55rCRAgQIAAAQIECBAgQIAAAQKBBISgQMtyVAIECBAgQIAAAQIECBAgQIBAFwEhqIueawkQIECAAAECBAgQIECAAAECgQSEoEDLclQCBAgQIECAAAECBAgQIECAQBcBIaiLnmsJECBAgAABAgQIECBAgAABAoEEhKBAy3JUAgQIECBAgAABAgQIECBAgEAXASGoi55rCRAgQIAAAQIECBAgQIAAAQKBBISgQMtyVAIECBAgQIAAAQIECBAgQIBAFwEhqIueawkQIECAAAECBAgQIECAAAECgQSEoEDLclQCBAgQIECAAAECBAgQIECAQBcBIaiLnmsJECBAgAABAgQIECBAgAABAoEEhKBAy3JUAgQIECBAgAABAgQIECBAgEAXASGoi55rCRAgQIAAAQIECBAgQIAAAQKBBISgQMtyVAIECBAgQIAAAQIECBAgQIBAFwEhqIueawkQIECAAAECBAgQIECAAAECgQSEoEDLclQCBAgQIECAAAECBAgQIECAQBcBIaiLnmsJECBAgAABAgQIECBAgAABAoEEhKBAy3JUAgQIECBAgAABAgQIECBAgEAXASGoi55rCRAgQIAAAQIECBAgQIAAAQKBBISgQMtyVAIECBAgQIAAAQIECBAgQIBAFwEhqIueawkQIECAAAECBAgQIECAAAECgQT+DwAA//9z5pAbAAAqSklEQVTt3D+onuX9+PFLEBR6JkFiFzOe1kWw0MEGEpCYdHBQrODk6hgndbKFFnVKRucugbaYIYOJoeqB2EFQxME2Y7u0IjhFUAjYPsGT5jw593n+3Nd9f64/L5fknOe+rz+vz/P9wff90+99P/zvn+QfAgQIECBAgAABAgQIECBAgACB5gXuE4Kan7ELEiBAgAABAgQIECBAgAABAgRuCwhBvggECBAgQIAAAQIECBAgQIAAgU4EhKBOBu2aBAgQIECAAAECBAgQIECAAAEhyHeAAAECBAgQIECAAAECBAgQINCJgBDUyaBdkwABAgQIECBAgAABAgQIECAgBPkOECBAgAABAgQIECBAgAABAgQ6ERCCOhm0axIgQIAAAQIECBAgQIAAAQIEhCDfAQIECBAgQIAAAQIECBAgQIBAJwJCUCeDdk0CBAgQIECAAAECBAgQIECAgBDkO0CAAAECBAgQIECAAAECBAgQ6ERACOpk0K5JgAABAgQIECBAgAABAgQIEBCCfAcIECBAgAABAgQIECBAgAABAp0ICEGdDNo1CRAgQIAAAQIECBAgQIAAAQJCkO8AAQIECBAgQIAAAQIECBAgQKATASGok0G7JgECBAgQIECAAAECBAgQIEBACPIdIECAAAECBAgQIECAAAECBAh0IiAEdTJo1yRAgAABAgQIECBAgAABAgQICEG+AwQIECBAgAABAgQIECBAgACBTgSEoE4G7ZoECBAgQIAAAQIECBAgQIAAASHId4AAAQIECBAgQIAAAQIECBAg0ImAENTJoF2TAAECBAgQIECAAAECBAgQICAE+Q4QIECAAAECBAgQIECAAAECBDoREII6GbRrEiBAgAABAgQIECBAgAABAgSEIN8BAgQIECBAgAABAgQIECBAgEAnAkJQJ4N2TQIECBAgQIAAAQIECBAgQICAEOQ7QIAAAQIECBAgQIAAAQIECBDoREAI6mTQrkmAAAECBAgQIECAAAECBAgQEIJ8BwgQIECAAAECBAgQIECAAAECnQgIQZ0M2jUJECBAgAABAgQIECBAgAABAkKQ7wABAgQIECBAgAABAgQIECBAoBMBIaiTQbsmAQIECBAgQIAAAQIECBAgQEAI8h0gQIAAAQIECBAgQIAAAQIECHQiIAR1MmjXJECAAAECBAgQIECAAAECBAgIQb4DBAgQIECAAAECBAgQIECAAIFOBISgTgbtmgQIECBAgAABAgQIECBAgAABIch3gAABAgQIECBAgAABAgQIECDQiYAQ1MmgXZMAAQIECBAgQIAAAQIECBAgIAT5DhAgQIAAAQIECBAgQIAAAQIEOhEQgjoZtGsSIECAAAECBAgQIECAAAECBISgTN+B69evpz/84Q/pz3/+c9rZ2cm0qmUIECBAgAABAgQIECBAgED7Ajdv3ky/+c1v0u9///v0i1/8ov0LB95QCMqA/9lnn6WTJ0+mxRf3xIkT6b333hODMrhaggABAgQIECBAgAABAgTaF1j879K//vWv0+JfsHjooYfS+++/LwZNOHYhaCTuIgKdPn06ffPNN3dWEoPuUPgLAQIECBAgQIAAAQIECBAYFLg7Au0/tIhBiyj085//fP9X/swoIASNwPzHP/6RfvWrXx2IQPvLiUH7Ev4kQIAAAQIECBAgQIAAAQL3ChwWgfaf+ulPf5r++te/ikH7IBn/FIJGYD7++OPpiy++GFxhEYmuXLniPxMbFPIBAQIECBAgQIAAAQIECPQosIhAZ8+eTR9//PHg9Rf/O/fnn38++LkPthMQgrZzu/3WjRs3bv/fBvrqq68GV/FvBg3S+IAAAQIECBAgQIAAAQIEOhQ46t8E2uc4duxY2tvbS7u7u/u/8mcmASFoJKQYNBLQ6wQIECBAgAABAgQIECDQjYAIFD9qISjDDMSgDIiWIECAAAECBAgQIECAAIGmBUSgMsYrBGWagxiUCdIyBAgQIECAAAECBAgQINCcgAhUzkiFoIyzEIMyYlqKAAECBAgQIECAAAECBJoQEIHKGqMQlHkeYlBmUMsRIECAAAECBAgQIECAQLUCIlB5oxOCJpiJGDQBqiUJECBAgAABAgQIECBAoCoBEajMcQlBE81FDJoI1rIECBAgQIAAAQIECBAgULyACFTuiISgCWcjBk2Ia2kCBAgQIECAAAECBAgQKFJABCpyLHcOJQTdoZjmL2LQNK5WJUCAAAECBAgQIECAAIHyBESg8mayfCIhaFlkgp/FoAlQLUmAAAECBAgQIECAAAECRQmIQEWNY/AwQtAgTd4PxKC8nlYjQIAAAQIECBAgQIAAgXIERKByZrHqJELQKqGMn4tBGTEtRYAAAQIECBAgQIAAAQJFCIhARYxh7UMIQWtT5XlQDMrjaBUCBAgQIECAAAECBAgQiBcQgeJnsOkJhKBNxTI8LwZlQLQEAQIECBAgQIAAAQIECIQKiECh/FtvLgRtTTfuRTFonJ+3CRAgQIAAAQIECBAgQCBOQASKsx+7sxA0VnDE+2LQCDyvEiBAgAABAgQIECBAgECIgAgUwp5tUyEoG+V2C4lB27l5iwABAgQIECBAgAABAgTmF1gnAh0/fjxdvXo17e7uzn9AO64UEIJWEk3/gBg0vbEdCBAgQIAAAQIECBAgQGCcwLoRaG9vLy1ikH/KFBCCCpnLIgadOXMm/fOf/xw80YkTJ9J7772XdnZ2Bp/xAQECBAgQIECAAAECBAgQyC0gAuUWjVtPCIqzv2fnRQQ6efKkGHSPjF8QIECAAAECBAgQIECAQJSACBQlP82+QtA0rluvKgZtTedFAgQIECBAgAABAgQIEMgsIAJlBi1gOSGogCEsH2HdGHTt2rX04IMPLr/uZwIECBAgQIAAAQIECBAgMFpABBpNWOQCQlCRY0m3//OwVf+Z2NmzZ9OlS5fEoEJn6FgECBAgQIAAAQIECBCoVUAEqnVyq88tBK02CntinX8zSAwKG4+NCRAgQIAAAQIECBAg0KSACNTkWO9cSgi6Q1HmX8SgMufiVAQIECBAgAABAgQIEGhRQARqcaoH7yQEHfQo8icxqMixOBQBAgQIECBAgAABAgSaEvjuu+/S6dOn0/Xr1wfvdfz48bS3t5cWf/qnTgEhqJK5iUGVDMoxCRAgQIAAAQIECBAgUKHAIgI9++yz6cqVK4OnF4EGaar6QAiqaFxiUEXDclQCBAgQIECAAAECBAhUIiACVTKoTMcUgjJBzrWMGDSXtH0IECBAgAABAgQIECDQvoAI1P6Ml28oBC2LVPCzGFTBkByRAAECBAgQIECAAAEChQuIQIUPaKLjCUETwU69rBg0tbD1CRAgQIAAAQIECBAg0K6ACNTubFfdTAhaJVTw52JQwcNxNAIECBAgQIAAAQIECBQqIAIVOpiZjiUEzQQ91TZi0FSy1iVAgAABAgQIECBAgEB7AiJQezPd9EZC0KZiBT4vBhU4FEciQIAAAQIECBAgQIBAYQIiUGEDCTqOEBQEn3tbMSi3qPUIECBAgAABAgQIECDQjoAI1M4sx95ECBorWND7YlBBw3AUAgQIECBAgAABAgQIFCIgAhUyiEKOIQQVMohcxxCDcklahwABAgQIECBAgAABAvULiED1zzD3DYSg3KIFrCcGFTAERyBAgAABAgQIECBAgECwgAgUPIBCtxeCCh3M2GOJQWMFvU+AAAECBAgQIECAAIF6BUSgemc39cmFoKmFA9cXgwLxbU2AAAECBAgQIECAAIEgAREoCL6SbYWgSga17THFoG3lvEeAAAECBAgQIECAAIH6BESg+mY294mFoLnFA/YTgwLQbUmAAAECBAgQIECAAIGZBUSgmcEr3U4IqnRwmx5bDNpUzPMECBAgQIAAAQIECBCoR0AEqmdW0ScVgqInMOP+YtCM2LYiQIAAAQIECBAgQIDATAIi0EzQjWwjBDUyyHWvIQatK+U5AgQIECBAgAABAgQIlC8gApU/o9JOKASVNpEZziMGzYBsCwIECBAgQIAAAQIECEwsIAJNDNzo8kJQo4NddS0xaJWQzwkQIECAAAECBAgQIFCugAhU7mxKP5kQVPqEJjyfGDQhrqUJECBAgAABAgQIECAwkYAINBFsJ8sKQZ0MeuiaYtCQjN8TIECAAAECBAgQIECgPAERqLyZ1HYiIai2iU1wXjFoAlRLEiBAgAABAgQIECBAILOACJQZtNPlhKBOB798bTFoWcTPBAgQIECAAAECBAgQKEdABCpnFrWfRAiqfYIZzy8GZcS0FAECBAgQIECAAAECBDIJiECZIC1zW0AI8kU4ICAGHeDwAwECBAgQIECAAAECBEIFRKBQ/iY3F4KaHOu4S4lB4/y8TYAAAQIECBAgQIAAgRwCIlAORWssCwhByyJ+vi0gBvkiECBAgAABAgQIECBAIE5ABIqzb31nIaj1CY+4nxg0As+rBAgQIECAAAECBAgQ2FJABNoSzmtrCQhBazH1+5AY1O/s3ZwAAQIECBAgQIAAgfkFRKD5zXvbUQjqbeJb3FcM2gLNKwQIECBAgAABAgQIENhQQATaEMzjWwkIQVux9feSGNTfzN2YAAECBAgQIECAAIH5BESg+ax730kI6v0bsMH9xaANsDxKgAABAgQIECBAgACBNQVEoDWhPJZFQAjKwtjPImJQP7N2UwIECBAgQIAAAQIEphcQgaY3tsNBASHooIef1hAQg9ZA8ggBAgQIECBAgAABAgRWCIhAK4B8PImAEDQJa/uLikHtz9gNCRAgQIAAAQIECBCYTkAEms7WykcLCEFH+/j0CAEx6AgcHxEgQIAAAQIECBAgQGBAQAQagPHrWQSEoFmY291EDGp3tm5GgAABAgQIECBAgEB+AREov6kVNxMQgjbz8vQhAmLQISh+RYAAAQIECBAgQIAAgSWBdSLQ7u5uunr1ajp+/PjS234kkEdACMrj2P0qYlD3XwEABAgQIECAAAECBAgcIbBuBNrb20vHjh07YiUfERgnIASN8/P2XQJi0F0Y/kqAAAECBAgQIECAAIEfBUQgX4WSBISgkqbRwFnEoAaG6AoECBAgQIAAAQIECGQTEIGyUVook4AQlAnSMv8XEIP+b+FvBAgQIECAAAECBAj0KyAC9Tv7km8uBJU8nYrPJgZVPDxHJ0CAAAECBAgQIEBgtIAINJrQAhMJCEETwVo2JTHIt4AAAQIECBAgQIAAgR4FRKAep17PnYWgemZV5UnFoCrH5tAECBAgQIAAAQIECGwpIAJtCee12QSEoNmo+91oEYPOnDmTbty4MYhw9uzZdOnSpfTggw8OPuMDAgQIECBAgAABAgQIlCwgApU8HWfbFxCC9iX8OanAV199lU6ePCkGTapscQIECBAgQIAAAQIEogREoCh5+24qIARtKub5rQXWjUGXL19O999//9b7eJEAAQIECBAgQIAAAQJzCohAc2rba6yAEDRW0PsbCawTg55//vl08eJFMWgjWQ8TIECAAAECBAgQIBAhIAJFqNtzjIAQNEbPu1sJiEFbsXmJAAECBAgQIECAAIHCBESgwgbiOGsJCEFrMXkot4AYlFvUegQIECBAgAABAgQIzCkgAs2pba+cAkJQTk1rbSQgBm3E5WECBAgQIECAAAECBAoREIEKGYRjbCUgBG3F5qVcAmJQLknrECBAgAABAgQIECAwh4AINIeyPaYUEIKm1LX2WgJi0FpMHiJAgAABAgQIECBAIFhABAoegO2zCAhBWRgtMlZADBor6H0CBAgQIECAAAECBKYUEIGm1LX2nAJC0Jza9jpSQAw6kseHBAgQIECAAAECBAgECYhAQfC2nURACJqE1aLbCohB28p5jwABAgQIECBAgACBKQREoClUrRkpIARF6tv7UAEx6FAWvyRAgAABAgQIECBAYGYBEWhmcNvNIiAEzcJsk00FxKBNxTxPgAABAgQIECBAgEBOAREop6a1ShIQgkqahrMcEBCDDnD4gQABAgQIECBAgACBmQRu3bqVnnnmmXTlypXBHXd3d9Pe3l46duzY4DM+IFCigBBU4lSc6Y6AGHSHwl8IECBAgAABAgQIEJhBYBGBXnzxxfSXv/xlcDcRaJDGBxUICEEVDKn3I4pBvX8D3J8AAQIECBAgQIDAPAIi0DzOdokVEIJi/e2+poAYtCaUxwgQIECAAAECBAgQ2EpABNqKzUsVCghBFQ6t1yOLQb1O3r0JECBAgAABAgQITCsgAk3ra/WyBISgsubhNCsExKAVQD4mQIAAAQIECBAgQGAjARFoIy4PNyAgBDUwxN6uIAb1NnH3JUCAAAECBAgQIDCNgAg0jatVyxYQgsqej9MNCIhBAzB+TYAAAQIECBAgQIDAWgIi0FpMHmpQQAhqcKi9XEkM6mXS7kmAAAECBAgQIEAgr4AIlNfTanUJCEF1zctplwTEoCUQPxIgQIAAAQIECBAgcKSACHQkjw87EBCCOhhy61cUg1qfsPsRIECAAAECBAgQyCMgAuVxtErdAkJQ3fNz+h8FxCBfBQIECBAgQIAAAQIEjhIQgY7S8VlPAkJQT9Nu/K5iUOMDdj0CBAgQIECAAAECWwqIQFvCea1JASGoybH2e6l1YtDDDz+cHnvssXTffff1C+XmBAgQIECAAAECBDoR+OGHH9KXX36Zvv7668Eb7+7upr29vXTs2LHBZ3xAoBUBIaiVSbrHHYF1YtCdh/2FAAECBAgQIECAAIGuBUSgrsff5eWFoC7H3v6lxaD2Z+yGBAgQIECAAAECBMYKiEBjBb1fo4AQVOPUnHktgf/85z/p1KlT6caNG2s97yECBAgQIECAAAECBPoRWESgjz76KD3yyCP9XNpNCfxPQAjyNWhaYPFvBv3yl79M//rXv5q+p8sRIECAAAECBAgQILC+wKOPPpo++eQT/zeB1ifzZEMCQlBDw3SVewX+9re/paeffjp9++23937oNwQIECBAgAABAgQIdCnwk5/8JL3//vvpySef7PL+Lt23gBDU9/ybvv3169fT2bNnj4xAL7/8sv9fgKa/BS5HgAABAgQIECDQq8Divw545513Bq+/iEFXrlxJJ06cGHzGBwRaFBCCWpyqO6XFvwl05syZdPPmzUGN8+fPp3Pnzg1+7gMCBAgQIECAAAECBOoWuHDhQnrllVcGL7Gzs5OuXr3q3wwaFPJBiwJCUItT7fxOIlDnXwDXJ0CAAAECBAgQIHCXgBh0F4a/EvifgBDka9CUgAjU1DhdhgABAgQIECBAgEAWATEoC6NFGhEQghoZpGsk/zmYLwEBAgQIECBAgAABAoMCYtAgjQ86ExCCOht4q9f1bwK1Oln3IkCAAAECBAgQIJBPQAzKZ2mlegWEoHpn5+Q/CohAvgoECBAgQIAAAQIECKwrIAatK+W5VgWEoFYn28m9RKBOBu2aBAgQIECAAAECBDIKiEEZMS1VnYAQVN3IHHhfQATal/AnAQIECBAgQIAAAQKbCohBm4p5vhUBIaiVSXZ2DxGos4G7LgECBAgQIECAAIEJBMSgCVAtWbyAEFT8iBxwWUAEWhbxMwECBAgQIECAAAEC2wqIQdvKea9WASGo1sl1em4RqNPBuzYBAgQIECBAgACBCQXEoAlxLV2cgBBU3EgcaEhABBqS8XsCBAgQIECAAAECBMYKiEFjBb1fi4AQVMukOj+nCNT5F8D1CRAgQIAAAQIECMwgIAbNgGyLcAEhKHwEDrBKQARaJeRzAgQIECBAgAABAgRyCYhBuSStU6qAEFTqZJzrtoAI5ItAgAABAgQIECBAgMDcAmLQ3OL2m1NACJpT214bCYhAG3F5mAABAgQIECBAgACBjAJiUEZMSxUlIAQVNQ6H2RcQgfYl/EmAAAECBAgQIECAQJSAGBQlb98pBYSgKXWtvZWACLQVm5cIECBAgAABAgQIEJhAQAyaANWSoQJCUCi/zZcFRKBlET8TIECAAAECBAgQIBAtIAZFT8D+OQWEoJya1holIAKN4vMyAQIECBAgQIAAAQITCohBE+JaelYBIWhWbpsNCYhAQzJ+T4AAAQIECBAgQIBAKQJiUCmTcI4xAkLQGD3vZhEQgbIwWoQAAQIECBAgQIAAgRkExKAZkG0xqYAQNCmvxVcJiECrhHxOgAABAgQIECBAgEBpAmJQaRNxnk0EhKBNtDybVUAEysppMQIECBAgQIAAAQIEZhR466230uuvvz64487OTrp69Wp68sknB5/xAYEIASEoQt2eSQTyJSBAgAABAgQIECBAoHaB3/72t+l3v/vd4DXEoEEaHwQKCEGB+L1uLQL1Onn3JkCAAAECBAgQINCegBjU3kxbv5EQ1PqEC7vfOhHozTffTK+99lphJ3ccAgQIECBAgAABAgQIHC4gBh3u4rdlCghBZc6lyVOtE4HeeOONtPh/RP1DgAABAgQIECBAgACBmgTEoJqm1fdZhaC+5z/b7a9du5aee+65dPPmzcE9RaBBGh8QIECAAAECBAgQIFCBgBhUwZAcMQlBvgSTCywi0DPPPJO+//77wb1EoEEaHxAgQIAAAQIECBAgUJGAGFTRsDo9qhDU6eDnurYINJe0fQgQIECAAAECBAgQKEVADCplEs5xmIAQdJiK32UREIGyMFqEAAECBAgQIECAAIEKBcSgCofWyZGFoE4GPfc1RaC5xe1HgAABAgQIECBAgEBpAuvEoHfffTedPn26tKM7T8MCQlDDw426mggUJW9fAgQIECBAgAABAgRKE1gVgx544IF0+fJlMai0wTV8HiGo4eFGXE0EilC3JwECBAgQIECAAAECJQuIQSVPp7+zCUH9zXyyG4tAk9FamAABAgQIECBAgACBygXEoMoH2NDxhaCGhhl5FREoUt/eBAgQIECAAAECBAjUICAG1TCl9s8oBLU/48lvKAJNTmwDAgQIECBAgAABAgQaERCDGhlkxdcQgioeXglHF4FKmIIzECBAgAABAgQIECBQk4AYVNO02jurENTeTGe7kQg0G7WNCBAgQIAAAQIECBBoTEAMamygFV1HCKpoWCUdVQQqaRrOQoAAAQIECBAgQIBAjQJiUI1Tq//MQlD9M5z9BiLQ7OQ2JECAAAECBAgQIECgUQExqNHBFnwtIajg4ZR4NBGoxKk4EwECBAgQIECAAAECNQuIQTVPr76zC0H1zSzsxCJQGL2NCRAgQIAAAQIECBBoXEAManzABV1PCCpoGCUfRQQqeTrORoAAAQIECBAgQIBACwJiUAtTLP8OQlD5Mwo/oQgUPgIHIECAAAECBAgQIECgEwExqJNBB15TCArEr2FrEaiGKTkjAQIECBAgQIAAAQItCYhBLU2zvLsIQeXNpJgTiUDFjMJBCBAgQIAAAQIECBDoTEAM6mzgM15XCJoRu6atRKCapuWsBAgQIECAAAECBAi0KCAGtTjV+DsJQfEzKO4EIlBxI3EgAgQIECBAgAABAgQ6FRCDOh38hNcWgibErXFpEajGqTkzAQIECBAgQIAAAQItC4hBLU93/rsJQfObF7ujCFTsaByMAAECBAgQIECAAIHOBcSgzr8AGa8vBGXErHkpEajm6Tk7AQIECBAgQIAAAQI9CIhBPUx5+jsKQdMbF7+DCFT8iByQAAECBAgQIECAAAECtwXEIF+EsQJC0FjByt8XgSofoOMTIECAAAECBAgQINCdgBjU3cizXlgIyspZ12IiUF3zcloCBAgQIECAAAECBAjsC4hB+xL+3FRACNpUrJHnRaBGBukaBAgQIECAAAECBAh0KyAGdTv6URcXgkbx1fmyCFTn3JyaAAECBAgQIECAAAECywJi0LKIn1cJCEGrhBr7XARqbKCuQ4AAAQIECBAgQIBA9wJiUPdfgY0AhKCNuOp+WASqe35OT4AAAQIECBAgQIAAgSEBMWhIxu+XBYSgZZFGfxaBGh2saxEgQIAAAQIECBAgQOBHATHIV2EdASFoHaXKnxGBKh+g4xMgQIAAAQIECBAgQGBNATFoTaiOHxOCGh++CNT4gF2PAAECBAgQIECAAAECSwJi0BKIHw8ICEEHONr6QQRqa55uQ4AAAQIECBAgQIAAgXUFxKB1pfp7TghqdOYiUKODdS0CBAgQIECAAAECBAisKSAGrQnV2WNCUIMDF4EaHKorESBAgAABAgQIECBAYAsBMWgLtMZfEYIaG7AI1NhAXYcAAQIECBAgQIAAAQIjBcSgkYCNvS4ENTRQEaihYboKAQIECBAgQIAAAQIEMgqIQRkxK19KCKp8gPvHF4H2JfxJgAABAgQIECBAgAABAocJiEGHqfT3OyGogZmLQA0M0RUIECBAgAABAgQIECAwg4AYNANy4VsIQYUPaNXxRKBVQj4nQIAAAQIECBAgQIAAgbsFxKC7Nfr7uxBU8cxFoIqH5+gECBAgQIAAAQIECBAIFBCDAvGDtxaCggew7fYi0LZy3iNAgAABAgQIECBAgACBhYAY1Of3QAiqcO4iUIVDc2QCBAgQIECAAAECBAgUKCAGFTiUiY8kBE0MnHt5ESi3qPUIECBAgAABAgQIECDQt4AY1Nf8haCK5i0CVTQsRyVAgAABAgQIECBAgEBFAmJQRcMaeVQhaCTgXK+LQHNJ24cAAQIECBAgQIAAAQJ9CohBfcxdCKpgzpcuXUovvvhi+v777wdP+8Ybb6TF/9D6hwABAgQIECBAgAABAgQIbCsgBm0rV897QlDhs1pEoBdeeCHdunVr8KQi0CCNDwgQIECAAAECBAgQIEBgQ4HXXnstvf3224NvPfDAA+ny5cvp9OnTg8/4oFwBIajc2SQRqODhOBoBAgQIECBAgAABAgQaFnjllVfShQsXBm8oBg3SFP+BEFToiESgQgfjWAQIECBAgAABAgQIEOhEQAxqc9BCUIFzFYEKHIojESBAgAABAgQIECBAoEMBMai9oQtBhc1UBCpsII5DgAABAgQIECBAgACBzgXEoLa+AEJQQfMUgQoahqMQIECAAAECBAgQIECAwB0BMegORfV/EYIKGaEIVMggHIMAAQIECBAgQIAAAQIEDhUQgw5lqe6XQlABIxOBChiCIxAgQIAAAQIECBAgQIDASgExaCVR8Q8IQcEjEoGCB2B7AgQIECBAgAABAgQIENhIQAzaiKu4h4WgwJGIQIH4tiZAgAABAgQIECBAgACBrQXWiUEXL15Mzz777NZ7eHEaASFoGteVq64TgV599dX01ltvrVzLAwQIECBAgAABAgQIECBAYG6BVTHo/vvvT3/605/EoLkHs2I/IWgF0BQfrxOBzp07l86fPz/F9tYkQIAAAQIECBAgQIAAAQJZBMSgLIyzLiIEzcqdkgg0M7jtCBAgQIAAAQIECBAgQGBSATFoUt7siwtB2UmHFxSBhm18QoAAAQIECBAgQIAAAQL1CohB9cxOCJppViLQTNC2IUCAAAECBAgQIECAAIEQATEohH3jTYWgjck2f0EE2tzMGwQIECBAgAABAgQIECBQn4AYVP7MhKCJZyQCTQxseQIECBAgQIAAAQIECBAoSkAMKmoc9xxGCLqHJN8vRKB8llYiQIAAAQIECBAgQIAAgXoExKByZyUETTQbEWgiWMsSIECAAAECBAgQIECAQBUCYlCZYxKCJpiLCDQBqiUJECBAgAABAgQIECBAoDoBMai8kQlBmWciAmUGtRwBAgQIECBAgAABAgQIVC0gBpU1PiEo4zxEoIyYliJAgAABAgQIECBAgACBZgTEoHJGKQRlmoUIlAnSMgQIECBAgAABAgQIECDQpIAYVMZYhaAMcxCBMiBaggABAgQIECBAgAABAgSaFxCD4kcsBI2cgQg0EtDrBAgQIECAAAECBAgQINCVgBgUO24haIS/CDQCz6sECBAgQIAAAQIECBAg0K2AGBQ3eiFohP1TTz2VPvjgg8EVzp07l86fPz/4uQ8IECBAgAABAgQIECBAgECvAqti0KlTp9KHH37YK89k9xaCRtDevHkzLb6Yn3766T2riED3kPgFAQIECBAgQIAAAQIECBA4IDAUg5544om0t7eXdnZ2Djzvh/ECQtBIw2+++SY9/fTTB2KQCDQS1esECBAgQIAAAQIECBAg0I3AcgxaRKBr166lhx56qBuDOS8qBGXQXsSgEydOpL///e9JBMoAagkCBAgQIECAAAECBAgQ6EpgPwb97Gc/Sx9//LEINOH0haBMuP/+97/TH//4x/Tqq69mWtEyBAgQIECAAAECBAgQIECgH4G33347vfTSS+mRRx7p59IBNxWCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEBCCItTtSYAAAQIECBAgQIAAAQIECBAIEBCCAtBtSYAAAQIECBAgQIAAAQIECBCIEPgv67y4lLexoOUAAAAASUVORK5CYII=",
+        "source": "embedded",
+        "checkSum": "850c0672c9c77cf175a6df32909a9ff1d50714227497df2b30101c5b4bb8571b"
+      }
+    },
+    "bundledFiles": {
+      "lib/lab.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.js.map": {
+        "type": "text/plain"
+      },
+      "lib/lab.fallback.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.legacy.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.legacy.js.map": {
+        "type": "text/plain"
+      },
+      "lib/lab.css": {
+        "type": "text/css"
+      },
+      "lib/loading.svg": {
+        "type": "image/svg+xml"
+      }
+    }
+  }
+}
