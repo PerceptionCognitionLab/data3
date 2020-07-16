@@ -1,5 +1,5 @@
 blockFun=function(x) as.integer(x[1])
-trialFun=function(x) as.integer(x[2])
+trialFun=function(x) as.integer(x[4])
 
 extractData=function(d){
   r=d$sender=="Resp"
