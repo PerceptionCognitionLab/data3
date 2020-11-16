@@ -4,6 +4,7 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 76 26a4156e-0 1440 900 en-US 2020-11-16 23:40:09 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
 63 288c3b02-2 1440 900 de-DE 2020-11-16 23:13:41 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
 65 2d48a84f-2 1366 768 en-US 2020-11-16 23:21:09 Europe/London Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+82 405a467f-5 2560 1440 en-US 2020-11-16 23:51:38 America/Vancouver Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0
 68 44540af0-c 1440 900 de 2020-11-16 23:30:32 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
 72 492188a6-1 1440 900 en-US 2020-11-16 23:35:51 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
 62 51bab5d0-0 2560 1440 de-de 2020-11-16 23:13:26 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
@@ -32,3 +33,4 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 51 ec888165-0 1440 900 en 2020-11-16 22:14:37 America/Chicago Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
 54 f51fd594-3 1920 1080 en 2020-11-16 22:58:25 America/Detroit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
 81 62fec4ba-7 1920 1080 en-US 2020-11-16 23:50:28 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+82 6f0ff761-9 1280 800 en-US 2020-11-16 23:55:11 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
