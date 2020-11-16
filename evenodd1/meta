@@ -1,3 +1,6 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
 4 80c0e369-a 1440 900 en-us 2020-11-16 21:38:17 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
 49 b3034a66-f 1536 864 en-US 2020-11-16 22:04:17 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+50 bf497e8f-0 1920 1080 en-US 2020-11-16 22:14:09 America/Chicago Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
+51 ec888165-0 1440 900 en 2020-11-16 22:14:37 America/Chicago Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+52 d8799a15-0 1920 1080 en-US 2020-11-16 22:43:56 America/Chicago Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
