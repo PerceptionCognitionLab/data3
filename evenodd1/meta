@@ -1,6 +1,14 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
+58 6cd6235b-d 1680 1050 en-US 2020-11-16 23:02:05 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
+57 71b0e6c1-9 1792 1120 en-GB 2020-11-16 22:59:34 Europe/London Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
 4 80c0e369-a 1440 900 en-us 2020-11-16 21:38:17 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+53 b29bd2e7-c 1920 1080 en-US 2020-11-16 22:58:04 America/Chicago Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
 49 b3034a66-f 1536 864 en-US 2020-11-16 22:04:17 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
 50 bf497e8f-0 1920 1080 en-US 2020-11-16 22:14:09 America/Chicago Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
-51 ec888165-0 1440 900 en 2020-11-16 22:14:37 America/Chicago Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+56 c4920c5c-4 1920 1080 en-US 2020-11-16 23:02:47 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0
 52 d8799a15-0 1920 1080 en-US 2020-11-16 22:43:56 America/Chicago Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+55 da39e4bd-7 1440 900 en-US 2020-11-16 22:59:08 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+58 e8f0a3b3-1 2560 1440 en 2020-11-16 23:02:54 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+51 ec888165-0 1440 900 en 2020-11-16 22:14:37 America/Chicago Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+54 f51fd594-3 1920 1080 en 2020-11-16 22:58:25 America/Detroit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+59 1b7281c2-d 1792 1120 en-us 2020-11-16 23:04:13 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
