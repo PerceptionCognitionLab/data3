@@ -1,0 +1,13 @@
+For all questions:
+-1 top option
+1 next option
+0 no opinion
+
+shape: -1= evens are lumpy
+side: -1= evens are left
+sym: -1= evens are symmetric
+temp: -1= evens are cool
+taste: -1=evens are sweet
+starwars: -1= evens are empire
+gender: -1= evens are male
+preference:: -1= evens
