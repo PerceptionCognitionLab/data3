@@ -1,0 +1,14 @@
+extractData=function(d){
+ shape=d$shape[d$sender=="shape"]
+ side=d$side[d$sender=="side"]
+ sym=d$sym[d$sender=="sym"]
+ temp=d$temp[d$sender=="temp"]
+ taste=d$taste[d$sender=="taste"]
+ starwars=d$starwars[d$sender=="starwars"]
+ gender=d$gender[d$sender=="gender"]
+ preference=d$preference[d$sender=="preference"]
+ pid=d$url_pid[d$sender=='Intro']
+ sid=d$observation[d$sender=='Intro']
+ dat=data.frame(sid,pid,shape,side,sym,temp,taste,starwars,gender,preference)
+ return(dat)
+}
