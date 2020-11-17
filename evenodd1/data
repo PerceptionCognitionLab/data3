@@ -11,6 +11,7 @@ sid,question,resp,pid
 5b922db1-5,shape,-1,71
 5e56637d-4,shape,-1,86
 620c2d08-0,shape,1,64
+63ddc1e8-f,shape,1,102
 671c4993-b,shape,-1,92
 6ac9225e-1,shape,-1,83
 6cd6235b-d,shape,-1,58
@@ -54,6 +55,7 @@ f51fd594-3,shape,1,54
 5b922db1-5,side,-1,71
 5e56637d-4,side,1,86
 620c2d08-0,side,-1,64
+63ddc1e8-f,side,1,102
 671c4993-b,side,1,92
 6ac9225e-1,side,1,83
 6cd6235b-d,side,1,58
@@ -97,6 +99,7 @@ f51fd594-3,side,1,54
 5b922db1-5,sym,-1,71
 5e56637d-4,sym,-1,86
 620c2d08-0,sym,-1,64
+63ddc1e8-f,sym,0,102
 671c4993-b,sym,1,92
 6ac9225e-1,sym,-1,83
 6cd6235b-d,sym,-1,58
@@ -140,6 +143,7 @@ f51fd594-3,sym,0,54
 5b922db1-5,temp,1,71
 5e56637d-4,temp,-1,86
 620c2d08-0,temp,-1,64
+63ddc1e8-f,temp,1,102
 671c4993-b,temp,1,92
 6ac9225e-1,temp,1,83
 6cd6235b-d,temp,1,58
@@ -183,6 +187,7 @@ f51fd594-3,temp,0,54
 5b922db1-5,taste,-1,71
 5e56637d-4,taste,1,86
 620c2d08-0,taste,0,64
+63ddc1e8-f,taste,0,102
 671c4993-b,taste,1,92
 6ac9225e-1,taste,-1,83
 6cd6235b-d,taste,-1,58
@@ -226,6 +231,7 @@ f51fd594-3,taste,-1,54
 5b922db1-5,starwars,1,71
 5e56637d-4,starwars,-1,86
 620c2d08-0,starwars,-1,64
+63ddc1e8-f,starwars,1,102
 671c4993-b,starwars,1,92
 6ac9225e-1,starwars,-1,83
 6cd6235b-d,starwars,0,58
@@ -267,6 +273,7 @@ f51fd594-3,starwars,0,54
 5b922db1-5,gender,0,71
 5e56637d-4,gender,0,86
 620c2d08-0,gender,1,64
+63ddc1e8-f,gender,0,102
 671c4993-b,gender,1,92
 6ac9225e-1,gender,-1,83
 6cd6235b-d,gender,1,58
@@ -308,6 +315,7 @@ f51fd594-3,gender,1,54
 5b922db1-5,preference,-1,71
 5e56637d-4,preference,-1,86
 620c2d08-0,preference,-1,64
+63ddc1e8-f,preference,-1,102
 671c4993-b,preference,0,92
 6ac9225e-1,preference,1,83
 6cd6235b-d,preference,-1,58

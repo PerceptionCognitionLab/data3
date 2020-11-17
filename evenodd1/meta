@@ -11,6 +11,7 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 71 5b922db1-5 2048 1152 en-US 2020-11-16 23:09:47 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0
 86 5e56637d-4 1280 720 en-US 2020-11-17 00:50:10 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
 64 620c2d08-0 1536 864 en-US 2020-11-16 23:16:47 America/New_York Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
+102 63ddc1e8-f 1920 1080 en-US 2020-11-17 04:04:43 America/Los_Angeles Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:82.0) Gecko/20100101 Firefox/82.0
 92 671c4993-b 1920 1080 en-US 2020-11-17 03:25:08 America/New_York Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0
 83 6ac9225e-1 2560 1440 en-US 2020-11-17 00:17:19 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
 58 6cd6235b-d 1680 1050 en-US 2020-11-16 23:02:05 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
