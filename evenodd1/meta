@@ -10,6 +10,7 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 62 51bab5d0-0 2560 1440 de-de 2020-11-16 23:13:26 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
 71 5b922db1-5 2048 1152 en-US 2020-11-16 23:09:47 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0
 64 620c2d08-0 1536 864 en-US 2020-11-16 23:16:47 America/New_York Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
+83 6ac9225e-1 2560 1440 en-US 2020-11-17 00:17:19 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
 58 6cd6235b-d 1680 1050 en-US 2020-11-16 23:02:05 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
 78 70c438be-f 1920 1080 en-US 2020-11-16 23:45:06 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
 57 71b0e6c1-9 1792 1120 en-GB 2020-11-16 22:59:34 Europe/London Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
@@ -34,3 +35,4 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 54 f51fd594-3 1920 1080 en 2020-11-16 22:58:25 America/Detroit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
 81 62fec4ba-7 1920 1080 en-US 2020-11-16 23:50:28 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
 82 6f0ff761-9 1280 800 en-US 2020-11-16 23:55:11 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36
+83 bf14f895-9 1440 900 en-gb 2020-11-17 00:15:16 Europe/Dublin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
