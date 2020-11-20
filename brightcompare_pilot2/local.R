@@ -3,8 +3,18 @@ trialFun=function(x) as.integer(x[4])
 
 extractData=function(d){
   r=d$sender=="Resp"
-  dat0=data.frame(d$observation,d$timestamp,d$sender_id,d$targ,d$back,d$response,round(d$duration),d$correct)
-  colnames(dat0)=c("sid","timestamp","sender_id","targ","back","resp","rt","correct")
+  dat0=data.frame(d$observation
+                  ,d$timestamp
+                  ,d$sender_id
+                  ,d$targ
+                  ,d$back
+                  ,d$morph
+                  ,d$response
+                  ,round(d$duration)
+                  ,d$correct)
+  colnames(dat0)=c("sid","timestamp","sender_id"
+                   ,"targ","back","morph","resp","rt"
+                   ,"correct")
   datR=dat0[r,]
   good=!duplicated(cbind(datR$timestamp,datR$sid))
   dat=datR[good,]
@@ -14,5 +24,5 @@ extractData=function(d){
   return(dat)
 }
 
-# works for brightcompare 
+# works for morph_pilot as well
 
