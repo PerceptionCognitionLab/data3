@@ -1,0 +1,17 @@
+url_pid,observation,sender,timestamp,topic,stay_home,face_mask,school_closing,closure_criteria,fairness,respect_other,respect_self,sid,pid
+1,737bcf9a-4,Movement Item,2020-11-27 15:12:08,movement,not required,mandatory whenever outside of one's residence (and need to be purchased by citizens),NA,NA,50NA,50NA,50NA,737bcf9a-4,1
+1,737bcf9a-4,Movement Item,2020-11-27 15:12:08,movement,required,not required,NA,NA,50NA,50NA,50NA,737bcf9a-4,1
+1,737bcf9a-4,Movement Item,2020-11-27 15:12:08,movement,recommended,mandatory whenever outside of one's residence (and need to be purchased by citizens),NA,NA,50NA,50NA,50NA,737bcf9a-4,1
+1,737bcf9a-4,Movement Item,2020-11-27 15:12:08,movement,not required,mandatory in public transport, stores, bars and restaurants (and need to be purchased by citizens),NA,NA,50NA,50NA,50NA,737bcf9a-4,1
+1,737bcf9a-4,Movement Item,2020-11-27 15:12:09,movement,recommended,mandatory in public transport (and need to be purchased by citizens),NA,NA,50NA,50NA,50NA,737bcf9a-4,1
+1,737bcf9a-4,Movement Item,2020-11-27 15:12:09,movement,recommended,mandatory in public transport, stores, bars and restaurants (and need to be purchased by citizens),NA,NA,50NA,50NA,50NA,737bcf9a-4,1
+1,737bcf9a-4,Movement Item,2020-11-27 15:12:09,movement,not required,mandatory in public transport (and need to be purchased by citizens),NA,NA,50NA,50NA,50NA,737bcf9a-4,1
+1,737bcf9a-4,Movement Item,2020-11-27 15:12:09,movement,required,mandatory in public transport (and need to be purchased by citizens),NA,NA,50NA,50NA,50NA,737bcf9a-4,1
+1,737bcf9a-4,Family and school Item,2020-11-27 15:12:13,family,NA,NA,Elementary and high schools are closed (daycare and preschool remain open as they cannot provide online classes),the entire country,NA50,NA50,NA50,737bcf9a-4,1
+1,737bcf9a-4,Family and school Item,2020-11-27 15:12:13,family,NA,NA,All schools are open,regions where less than 50% of the ICU capacity is reached, all schools are closed in other regions,NA50,NA50,NA50,737bcf9a-4,1
+1,737bcf9a-4,Family and school Item,2020-11-27 15:12:13,family,NA,NA,All schools are open,some regions, while not in others,NA50,NA50,NA50,737bcf9a-4,1
+1,737bcf9a-4,Family and school Item,2020-11-27 15:12:14,family,NA,NA,Elementary and high schools are closed (daycare and preschool remain open as they cannot provide online classes),regions where less than 50% of the ICU capacity is reached, all schools are closed in other regions,NA50,NA50,NA50,737bcf9a-4,1
+1,737bcf9a-4,Family and school Item,2020-11-27 15:12:14,family,NA,NA,All schools are open,the entire country,NA50,NA50,NA50,737bcf9a-4,1
+1,737bcf9a-4,Family and school Item,2020-11-27 15:12:14,family,NA,NA,Elementary and high schools are closed (daycare and preschool remain open as they cannot provide online classes),some regions, while not in others,NA50,NA50,NA50,737bcf9a-4,1
+1,737bcf9a-4,Family and school Item,2020-11-27 15:12:14,family,NA,NA,All schools are open,regions where less than 50% of the ICU capacity is reached, all schools are closed in other regions,NA50,NA50,NA50,737bcf9a-4,1
+1,737bcf9a-4,Family and school Item,2020-11-27 15:12:14,family,NA,NA,Elementary and high schools are closed (daycare and preschool remain open as they cannot provide online classes),some regions, while not in others,NA50,NA50,NA50,737bcf9a-4,1
