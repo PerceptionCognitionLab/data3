@@ -1,5 +1,15 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
 19 0539a579-5 1920 1080 en-us 2020-11-19 15:24:54 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+224 2166b49e-e 1440 900 en-GB 2020-12-10 14:23:05 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 210 4359cc9d-d 1600 900 en-US 2020-12-08 22:48:16 Europe/Brussels Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0
 19 4455dc40-9 1920 1080 en-us 2020-11-17 09:03:45 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+218 53ffa356-1 1280 720 pl-PL 2020-12-10 14:42:42 Europe/Warsaw Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+223 5e670bb6-7 1440 900 en-US 2020-12-11 14:52:46 Asia/Manila Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36
+228 77ea3b2c-5 1920 1080 de-DE 2020-12-11 14:31:17 Europe/Berlin Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 210 9baad5cb-0 1600 900 en-US 2020-12-08 21:51:05 Europe/Brussels Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0
+228 aa36047f-2 1920 1080 de-DE 2020-12-11 17:49:30 Europe/Berlin Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+216 b652dd72-f 1536 864 en-US 2020-12-10 09:42:32 Asia/Calcutta Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+218 cfe196eb-7 1280 720 pl-PL 2020-12-11 14:43:09 Europe/Warsaw Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+216 e3cdcb20-8 1536 864 en-US 2020-12-10 06:04:40 Asia/Calcutta Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+208 e4b70775-5 1280 800 en-US 2020-12-09 12:52:58 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+208 e7ea8a06-2 1280 800 en-US 2020-12-09 12:30:36 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
