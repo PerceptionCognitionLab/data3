@@ -7,9 +7,8 @@ extractData=function(d){
   r <- r[- which(r %in% c(grep("Risk Propensity Item", d$sender), grep("Political Orientation Item", d$sender)))]
   dat_policies <- d %>%
     select(url_pid, observation, sender, timestamp, topic
-           , stay_home, face_mask, school_closing, closure_criteria
-           , colnames(d)[grep("fairness", colnames(d))]
-           , colnames(d)[grep("respect", colnames(d))]
+           , colnames(d)[grep("slider", colnames(d))]
+           # , colnames(d)[grep("respect", colnames(d))]
            )
 
   dat_policies <- dat_policies %>%
