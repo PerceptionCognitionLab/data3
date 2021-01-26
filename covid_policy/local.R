@@ -127,3 +127,5 @@ extractComparisonData <- function(d){
   contentFile <- "../data3/covid_policy/compdata"
   write.csv(file = contentFile, data_comparisons, quote=FALSE, row.names=FALSE)
 }
+
+extractComparisonData(d = d)
