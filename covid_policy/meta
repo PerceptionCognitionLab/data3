@@ -1,12 +1,14 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
 277 08c6623c-2 1366 768 nl-NL 2021-01-12 09:32:10 Europe/Amsterdam Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
 205 11543f90-6 1280 800 en-GB 2020-12-15 11:00:24 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+296 1a6f9e5b-f 1680 1050 de-de 2021-01-28 11:29:21 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
 205 1eec777e-b 1280 800 en-US 2020-12-14 21:53:06 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 284 23b33557-1 360 720 de-DE 2021-01-23 18:16:23 Europe/Berlin Mozilla/5.0 (Linux; Android 10; BKL-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36
 293 2ee227a8-7 1440 900 en-gb 2021-01-25 22:40:14 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
 274 3c90b801-b 768 1024 en-ca 2021-01-10 23:11:03 America/Vancouver Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
 265 3cfc0795-1 1920 1080 nl 2021-01-06 10:11:04 Europe/Amsterdam Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 268 48d2a106-3 1440 900 en-GB 2021-01-06 15:22:49 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+299 5702dec0-3 1920 1080 en-US 2021-01-29 13:11:55 Europe/Amsterdam Mozilla/5.0 (X11; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
 286 5f19cf45-5 1280 720 en-US 2021-01-25 15:39:17 America/New_York Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
 205 60996cd3-d 1280 800 en-GB 2020-12-15 10:30:52 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 285 6230808e-c 1680 1050 en 2021-01-25 14:01:27 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
@@ -33,6 +35,8 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 289 2d9907ef-8 414 896 en-gb 2021-01-25 17:08:45 America/Toronto Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/604.1
 275 4319943c-2 1440 900 en-US 2021-01-10 23:07:34 America/Vancouver Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 266 4fbb6ebd-4 1440 900 en-gb 2021-01-06 10:59:53 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+297 552803e4-4 1920 1080 en-US 2021-01-29 13:11:15 Europe/Amsterdam Mozilla/5.0 (X11; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+298 711abb13-d 1920 1080 en-US 2021-01-29 13:11:36 Europe/Amsterdam Mozilla/5.0 (X11; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
 278 82e99be0-a 375 812 en-us 2021-01-14 14:07:40 Europe/London Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
 283 91856a93-e 414 896 en-gb 2021-01-23 09:20:41 Europe/London Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 LightSpeed [FBAN/MessengerLiteForiOS;FBAV/294.0.0.60.128;FBBV/262406393;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/14.3;FBSS/2;FBCR/;FBID/phone;FBLC/en-GB;FBOP/0]
 273 95cea852-e 1440 900 en-US 2021-01-10 21:56:14 America/Vancouver Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
