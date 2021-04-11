@@ -1,0 +1,15 @@
+extractData=function(d){
+  stim=d$sender=="Stimulus"
+  respEvent=d$sender=="Stimulus"
+  sid=d$observation[stim]
+  color=d[stim,]$color
+  word=d[stim,]$word
+  resp=d[respEvent,]$response
+  rt=d[respEvent,]$duration
+  out=data.frame(sid,color,word,resp,rt)
+  colnames(out)=c("sid",
+		  "color",
+		  "word",
+                  "resp",
+                  "rt")
+  return(out)}
