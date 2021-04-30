@@ -1,32 +1,32 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
-28 0aa63 1440 900 en 2020-05-30 06:08:51 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
-18 0bf83 1440 900 en-US 2020-05-29 21:09:22 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-11 0c1d7 1920 1080 en-US 2020-05-28 03:56:49 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-32 0ff28 1440 900 en-US 2020-06-02 15:24:06 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-31 2a18c 1440 900 en-US 2020-06-01 23:55:48 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
-21 33878 1366 768 en-US 2020-06-02 07:23:13 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
-35 4b743 1366 768 en-US 2020-06-03 18:09:40 America/Los_Angeles Mozilla/5.0 (X11; CrOS x86_64 12871.102.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.141 Safari/537.36
-9 504aa 1440 900 en-US 2020-05-28 00:51:07 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-22 601e7 1440 900 zh-CN 2020-05-29 23:26:43 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-23 67ba1 1440 900 en-US 2020-05-30 02:30:10 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:76.0) Gecko/20100101 Firefox/76.0
-12 6e12b 1440 900 en-US 2020-05-28 05:29:25 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-29 802b3 1440 900 en-US 2020-05-30 06:39:20 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-15 80f88 1366 768 en-US 2020-05-29 18:30:56 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-25 894cf 1440 900 en 2020-05-30 04:06:01 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
-34 9ca03 1366 768 en-US 2020-06-03 18:09:26 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-24 ac4e7 1440 900 en-US 2020-05-30 03:41:26 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-13 babf7 1280 720 zh-CN 2020-05-28 06:15:56 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-20 be564 1440 900 en-US 2020-05-30 02:45:15 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-17 c7248 1440 900 en-US 2020-05-28 17:48:42 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36
-8 caece 1440 900 en-US 2020-05-28 00:45:36 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-10 ce495 1280 800 en-us 2020-05-28 01:57:29 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
-16 d79f6 1440 900 en-US 2020-05-28 09:33:05 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-14 e93d5 1368 912 en-US 2020-05-28 07:56:26 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-21 efdf3 1366 768 en-US 2020-05-30 05:55:47 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
-33 f9838 1440 900 en-US 2020-06-03 07:42:22 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-11 21d08 1920 1080 en-US 2020-05-28 03:53:54 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-27 54657 1440 900 en-US 2020-05-30 06:03:54 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15
-20 be378 1440 900 en-US 2020-05-29 22:43:08 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
-30 c4a05 1440 900 en 2020-06-01 23:06:35 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
-7 d4db5 1366 768 en-US 2020-05-28 00:17:03 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-26 eddcf 1440 900 en-US 2020-05-30 05:14:29 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+28 0aa6356f-7 1440 900 en 2020-05-30 06:08:51 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+18 0bf830ff-0 1440 900 en-US 2020-05-29 21:09:22 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+11 0c1d7a7d-6 1920 1080 en-US 2020-05-28 03:56:49 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+32 0ff287f6-9 1440 900 en-US 2020-06-02 15:24:06 America/New_York Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+31 2a18c62b-e 1440 900 en-US 2020-06-01 23:55:48 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+21 338786a6-4 1366 768 en-US 2020-06-02 07:23:13 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+35 4b743d40-9 1366 768 en-US 2020-06-03 18:09:40 America/Los_Angeles Mozilla/5.0 (X11; CrOS x86_64 12871.102.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.141 Safari/537.36
+9 504aac04-9 1440 900 en-US 2020-05-28 00:51:07 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+22 601e752f-2 1440 900 zh-CN 2020-05-29 23:26:43 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+23 67ba1a6b-9 1440 900 en-US 2020-05-30 02:30:10 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:76.0) Gecko/20100101 Firefox/76.0
+12 6e12b320-e 1440 900 en-US 2020-05-28 05:29:25 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+29 802b38c3-a 1440 900 en-US 2020-05-30 06:39:20 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+15 80f881d4-6 1366 768 en-US 2020-05-29 18:30:56 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+25 894cf489-8 1440 900 en 2020-05-30 04:06:01 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+34 9ca03275-b 1366 768 en-US 2020-06-03 18:09:26 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+24 ac4e7c1b-8 1440 900 en-US 2020-05-30 03:41:26 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+13 babf7502-d 1280 720 zh-CN 2020-05-28 06:15:56 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+20 be564c4b-b 1440 900 en-US 2020-05-30 02:45:15 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+17 c7248bde-a 1440 900 en-US 2020-05-28 17:48:42 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36
+8 caecef27-0 1440 900 en-US 2020-05-28 00:45:36 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+10 ce495578-7 1280 800 en-us 2020-05-28 01:57:29 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+16 d79f68bb-f 1440 900 en-US 2020-05-28 09:33:05 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+14 e93d5033-8 1368 912 en-US 2020-05-28 07:56:26 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+21 efdf315f-5 1366 768 en-US 2020-05-30 05:55:47 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+33 f98383d1-4 1440 900 en-US 2020-06-03 07:42:22 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+11 21d08b85-d 1920 1080 en-US 2020-05-28 03:53:54 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+27 546571ff-6 1440 900 en-US 2020-05-30 06:03:54 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15
+20 be378a2d-5 1440 900 en-US 2020-05-29 22:43:08 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+30 c4a05563-e 1440 900 en 2020-06-01 23:06:35 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+7 d4db5bf5-e 1366 768 en-US 2020-05-28 00:17:03 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+26 eddcfb2d-4 1440 900 en-US 2020-05-30 05:14:29 America/Los_Angeles Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15

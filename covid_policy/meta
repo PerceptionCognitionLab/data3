@@ -12,6 +12,7 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 286 5f19cf45-5 1280 720 en-US 2021-01-25 15:39:17 America/New_York Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
 205 60996cd3-d 1280 800 en-GB 2020-12-15 10:30:52 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 285 6230808e-c 1680 1050 en 2021-01-25 14:01:27 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+312 66a34a85-8 1536 864 nl 2021-02-11 20:29:29 Europe/Amsterdam Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
 288 721953b7-9 2048 1152 en-US 2021-01-25 15:49:14 Europe/Madrid Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
 1 737bcf9a-4 1920 1080 en-US 2020-11-27 15:12:06 Europe/Amsterdam Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0
 205 73905986-8 1280 800 en-GB 2020-12-15 10:48:07 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
@@ -24,6 +25,7 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 205 aa85ce4a-4 1280 800 en-US 2020-11-27 19:29:17 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36
 292 aad80c4f-3 1440 900 nl-NL 2021-01-25 19:31:12 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
 281 b308185e-c 360 640 en-US 2021-01-22 14:41:34 America/Chicago Mozilla/5.0 (Linux; Android 8.0.0; SM-G930V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36
+307 bb630050-a 1920 1080 en-GB 2021-02-09 14:08:59 Europe/London Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0
 205 c099bb42-a 1280 800 en-GB 2020-12-15 10:59:02 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 302 c36285d8-c 414 736 en-gb 2021-02-04 21:15:35 Europe/Amsterdam Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 LightSpeed [FBAN/MessengerLiteForiOS;FBAV/298.0.0.40.115;FBBV/270994966;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/14.3;FBSS/3;FBCR/;FBID/phone;FBLC/en-GB;FBOP/0]
 267 dc3933bf-b 360 740 en-CA 2021-01-06 11:53:28 Europe/Amsterdam Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Mobile Safari/537.36
@@ -33,8 +35,10 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 275 fd9b06a7-2 1440 900 en-US 2021-01-10 23:08:03 America/Vancouver Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
 272 ff18b025-b 1280 720 en-US 2021-01-10 20:19:16 Europe/Paris Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
 282 035c1004-a 1920 1080 en-US 2021-01-22 17:56:53 Europe/Amsterdam Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+315 061f4043-c 414 736 en-us 2021-03-04 17:57:39 Europe/Istanbul Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1
 205 102b80fe-8 1440 900 en-US 2021-02-04 23:03:26 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
 287 171778a8-7 414 896 en-gb 2021-01-25 15:42:23 Europe/Madrid Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/604.1
+311 216ab22d-5 360 780 nl 2021-02-11 10:34:34 Europe/Amsterdam Mozilla/5.0 (Linux; Android 10; SNE-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
 289 2d9907ef-8 414 896 en-gb 2021-01-25 17:08:45 America/Toronto Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/604.1
 301 30aff269-0 1440 900 en-gb 2021-02-03 18:26:09 Europe/London Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15
 275 4319943c-2 1440 900 en-US 2021-01-10 23:07:34 America/Vancouver Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
@@ -43,11 +47,17 @@ participantID sessionID xres yres lang timeStamp timeZone agent
 297 552803e4-4 1920 1080 en-US 2021-01-29 13:11:15 Europe/Amsterdam Mozilla/5.0 (X11; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
 298 711abb13-d 1920 1080 en-US 2021-01-29 13:11:36 Europe/Amsterdam Mozilla/5.0 (X11; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
 205 786d538b-9 1440 900 en-US 2021-02-04 23:03:02 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+308 7e9f00e9-5 1440 900 de-DE 2021-02-09 15:27:15 Europe/Berlin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
 278 82e99be0-a 375 812 en-us 2021-01-14 14:07:40 Europe/London Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
 283 91856a93-e 414 896 en-gb 2021-01-23 09:20:41 Europe/London Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 LightSpeed [FBAN/MessengerLiteForiOS;FBAV/294.0.0.60.128;FBBV/262406393;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/14.3;FBSS/2;FBCR/;FBID/phone;FBLC/en-GB;FBOP/0]
 273 95cea852-e 1440 900 en-US 2021-01-10 21:56:14 America/Vancouver Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+313 ac6355ee-b 360 720 nl-NL 2021-02-13 17:56:38 Europe/Zurich Mozilla/5.0 (Linux; Android 7.0; RNE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36
+315 c1b742e8-a 414 736 en-us 2021-03-04 17:58:18 Europe/Istanbul Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1
 270 c891748e-1 1920 1080 en-US 2021-01-06 18:57:49 Europe/Amsterdam Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+310 d4c7a268-2 1440 900 en-us 2021-02-10 10:11:48 Europe/Amsterdam Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
 304 dadba0d7-1 375 812 en-gb 2021-02-05 07:15:41 Europe/London Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 LightSpeed [FBAN/MessengerLiteForiOS;FBAV/268.1.0.62.114;FBBV/219555470;FBDV/iPhone10,6;FBMD/iPhone;FBSN/iOS;FBSV/14.3;FBSS/3;FBCR/;FBID/phone;FBLC/en_RO;FBOP/0]
+309 df05d66e-8 375 812 en-gb 2021-02-09 16:59:58 Europe/London Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
 264 f59bc31c-c 375 667 he-il 2021-01-05 23:13:09 America/New_York Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/604.1
 274 f8e80903-9 320 568 en-CA 2021-01-10 22:46:29 America/Vancouver Mozilla/5.0 (iPhone; CPU iPhone OS 12_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1
 303 fcdd76c1-3 1920 1080 en-US 2021-02-04 21:30:52 Europe/Amsterdam Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36
+314 fff159c3-7 414 736 en-us 2021-03-04 17:55:16 Europe/Istanbul Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1
