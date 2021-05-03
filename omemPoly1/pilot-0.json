@@ -616,6 +616,147 @@
           "charSpacing": 0,
           "id": "190",
           "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 5,
+          "width": 327.27,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "ID: ${ parameters.ID2 }",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "6",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": -155,
+          "top": 155,
+          "width": 327.27,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "ID: ${ parameters.ID1 }",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "7",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 155,
+          "top": 155,
+          "width": 327.27,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "ID: ${ parameters.ID2 }",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "8",
+          "styles": {}
         }
       ],
       "viewport": [
@@ -734,6 +875,18 @@
           {
             "name": "different",
             "type": "string"
+          },
+          {
+            "name": "ID1",
+            "type": "string"
+          },
+          {
+            "name": "ID2",
+            "type": "string"
+          },
+          {
+            "name": "ID3",
+            "type": "string"
           }
         ],
         "rows": [
@@ -746,7 +899,10 @@
             "black",
             "blue",
             "1",
-            "2"
+            "2",
+            "64",
+            "64",
+            "11"
           ],
           [
             "m1.png",
@@ -757,7 +913,10 @@
             "blue",
             "black",
             "1",
-            "2"
+            "2",
+            "64",
+            "11",
+            "64"
           ],
           [
             "m2.png",
@@ -768,7 +927,10 @@
             "black",
             "black",
             "1",
-            "2"
+            "2",
+            "11",
+            "64",
+            "64"
           ],
           [
             "m2.png",
@@ -779,7 +941,10 @@
             "black",
             "blue",
             "2",
-            "1"
+            "1",
+            "11",
+            "11",
+            "64"
           ],
           [
             "m2.png",
@@ -790,7 +955,10 @@
             "blue",
             "black",
             "2",
-            "1"
+            "1",
+            "11",
+            "64",
+            "11"
           ],
           [
             "m1.png",
@@ -801,7 +969,10 @@
             "black",
             "black",
             "2",
-            "1"
+            "1",
+            "64",
+            "11",
+            "11"
           ],
           [
             "m2.png",
@@ -812,7 +983,10 @@
             "black",
             "blue",
             "2",
-            "3"
+            "3",
+            "11",
+            "11",
+            "82"
           ],
           [
             "m2.png",
@@ -823,7 +997,10 @@
             "blue",
             "black",
             "2",
-            "3"
+            "3",
+            "11",
+            "82",
+            "11"
           ],
           [
             "m3.png",
@@ -834,7 +1011,10 @@
             "black",
             "black",
             "2",
-            "3"
+            "3",
+            "82",
+            "11",
+            "11"
           ],
           [
             "m3.png",
@@ -845,7 +1025,10 @@
             "black",
             "blue",
             "3",
-            "2"
+            "2",
+            "82",
+            "82",
+            "11"
           ],
           [
             "m3.png",
@@ -856,7 +1039,10 @@
             "blue",
             "black",
             "3",
-            "2"
+            "2",
+            "82",
+            "11",
+            "82"
           ],
           [
             "m2.png",
@@ -867,7 +1053,10 @@
             "black",
             "black",
             "3",
-            "2"
+            "2",
+            "11",
+            "82",
+            "82"
           ],
           [
             "m3.png",
@@ -878,7 +1067,10 @@
             "black",
             "blue",
             "3",
-            "4"
+            "4",
+            "82",
+            "82",
+            "39"
           ],
           [
             "m3.png",
@@ -889,7 +1081,10 @@
             "blue",
             "black",
             "3",
-            "4"
+            "4",
+            "82",
+            "39",
+            "82"
           ],
           [
             "m4.png",
@@ -900,7 +1095,10 @@
             "black",
             "black",
             "3",
-            "4"
+            "4",
+            "39",
+            "82",
+            "82"
           ],
           [
             "m4.png",
@@ -911,7 +1109,10 @@
             "black",
             "blue",
             "4",
-            "3"
+            "3",
+            "39",
+            "39",
+            "82"
           ],
           [
             "m4.png",
@@ -922,7 +1123,10 @@
             "blue",
             "black",
             "4",
-            "3"
+            "3",
+            "39",
+            "82",
+            "39"
           ],
           [
             "m3.png",
@@ -933,7 +1137,10 @@
             "black",
             "black",
             "4",
-            "3"
+            "3",
+            "82",
+            "39",
+            "39"
           ],
           [
             "m4.png",
@@ -944,7 +1151,10 @@
             "black",
             "blue",
             "4",
-            "5"
+            "5",
+            "39",
+            "39",
+            "20"
           ],
           [
             "m4.png",
@@ -955,7 +1165,10 @@
             "blue",
             "black",
             "4",
-            "5"
+            "5",
+            "39",
+            "20",
+            "39"
           ],
           [
             "m5.png",
@@ -966,7 +1179,10 @@
             "black",
             "black",
             "4",
-            "5"
+            "5",
+            "20",
+            "39",
+            "39"
           ],
           [
             "m5.png",
@@ -977,7 +1193,10 @@
             "black",
             "blue",
             "5",
-            "4"
+            "4",
+            "20",
+            "20",
+            "39"
           ],
           [
             "m5.png",
@@ -988,7 +1207,10 @@
             "blue",
             "black",
             "5",
-            "4"
+            "4",
+            "20",
+            "39",
+            "20"
           ],
           [
             "m4.png",
@@ -999,7 +1221,10 @@
             "black",
             "black",
             "5",
-            "4"
+            "4",
+            "39",
+            "20",
+            "20"
           ],
           [
             "m5.png",
@@ -1010,7 +1235,10 @@
             "black",
             "blue",
             "5",
-            "6"
+            "6",
+            "20",
+            "20",
+            "53"
           ],
           [
             "m5.png",
@@ -1021,7 +1249,10 @@
             "blue",
             "black",
             "5",
-            "6"
+            "6",
+            "20",
+            "53",
+            "20"
           ],
           [
             "m6.png",
@@ -1032,7 +1263,10 @@
             "black",
             "black",
             "5",
-            "6"
+            "6",
+            "53",
+            "20",
+            "20"
           ],
           [
             "m6.png",
@@ -1043,7 +1277,10 @@
             "black",
             "blue",
             "6",
-            "5"
+            "5",
+            "53",
+            "53",
+            "20"
           ],
           [
             "m6.png",
@@ -1054,7 +1291,10 @@
             "blue",
             "black",
             "6",
-            "5"
+            "5",
+            "53",
+            "20",
+            "53"
           ],
           [
             "m5.png",
@@ -1065,7 +1305,10 @@
             "black",
             "black",
             "6",
-            "5"
+            "5",
+            "20",
+            "53",
+            "53"
           ],
           [
             "m6.png",
@@ -1076,7 +1319,10 @@
             "black",
             "blue",
             "6",
-            "7"
+            "7",
+            "53",
+            "53",
+            "75"
           ],
           [
             "m6.png",
@@ -1087,7 +1333,10 @@
             "blue",
             "black",
             "6",
-            "7"
+            "7",
+            "53",
+            "75",
+            "53"
           ],
           [
             "m7.png",
@@ -1098,7 +1347,10 @@
             "black",
             "black",
             "6",
-            "7"
+            "7",
+            "75",
+            "53",
+            "53"
           ],
           [
             "m7.png",
@@ -1109,7 +1361,10 @@
             "black",
             "blue",
             "7",
-            "6"
+            "6",
+            "75",
+            "75",
+            "53"
           ],
           [
             "m7.png",
@@ -1120,7 +1375,10 @@
             "blue",
             "black",
             "7",
-            "6"
+            "6",
+            "75",
+            "53",
+            "75"
           ],
           [
             "m6.png",
@@ -1131,7 +1389,10 @@
             "black",
             "black",
             "7",
-            "6"
+            "6",
+            "53",
+            "75",
+            "75"
           ],
           [
             "m7.png",
@@ -1142,7 +1403,10 @@
             "black",
             "blue",
             "7",
-            "8"
+            "8",
+            "75",
+            "75",
+            "47"
           ],
           [
             "m7.png",
@@ -1153,7 +1417,10 @@
             "blue",
             "black",
             "7",
-            "8"
+            "8",
+            "75",
+            "47",
+            "75"
           ],
           [
             "m8.png",
@@ -1164,7 +1431,10 @@
             "black",
             "black",
             "7",
-            "8"
+            "8",
+            "47",
+            "75",
+            "75"
           ],
           [
             "m8.png",
@@ -1175,7 +1445,10 @@
             "black",
             "blue",
             "8",
-            "7"
+            "7",
+            "47",
+            "47",
+            "75"
           ],
           [
             "m8.png",
@@ -1186,7 +1459,10 @@
             "blue",
             "black",
             "8",
-            "7"
+            "7",
+            "47",
+            "75",
+            "47"
           ],
           [
             "m7.png",
@@ -1197,7 +1473,10 @@
             "black",
             "black",
             "8",
-            "7"
+            "7",
+            "75",
+            "47",
+            "47"
           ],
           [
             "m8.png",
@@ -1208,7 +1487,10 @@
             "black",
             "blue",
             "8",
-            "9"
+            "9",
+            "47",
+            "47",
+            "06"
           ],
           [
             "m8.png",
@@ -1219,7 +1501,10 @@
             "blue",
             "black",
             "8",
-            "9"
+            "9",
+            "47",
+            "06",
+            "47"
           ],
           [
             "m9.png",
@@ -1230,7 +1515,10 @@
             "black",
             "black",
             "8",
-            "9"
+            "9",
+            "06",
+            "47",
+            "47"
           ],
           [
             "m9.png",
@@ -1241,7 +1529,10 @@
             "black",
             "blue",
             "9",
-            "8"
+            "8",
+            "06",
+            "06",
+            "47"
           ],
           [
             "m9.png",
@@ -1252,7 +1543,10 @@
             "blue",
             "black",
             "9",
-            "8"
+            "8",
+            "06",
+            "47",
+            "06"
           ],
           [
             "m8.png",
@@ -1263,7 +1557,10 @@
             "black",
             "black",
             "9",
-            "8"
+            "8",
+            "47",
+            "06",
+            "06"
           ],
           [
             "m9.png",
@@ -1274,7 +1571,10 @@
             "black",
             "blue",
             "9",
-            "10"
+            "10",
+            "06",
+            "06",
+            "93"
           ],
           [
             "m9.png",
@@ -1285,7 +1585,10 @@
             "blue",
             "black",
             "9",
-            "10"
+            "10",
+            "06",
+            "93",
+            "06"
           ],
           [
             "m10.png",
@@ -1296,7 +1599,10 @@
             "black",
             "black",
             "9",
-            "10"
+            "10",
+            "93",
+            "06",
+            "06"
           ],
           [
             "m10.png",
@@ -1307,7 +1613,10 @@
             "black",
             "blue",
             "10",
-            "9"
+            "9",
+            "93",
+            "93",
+            "06"
           ],
           [
             "m10.png",
@@ -1318,7 +1627,10 @@
             "blue",
             "black",
             "10",
-            "9"
+            "9",
+            "93",
+            "06",
+            "93"
           ],
           [
             "m9.png",
@@ -1329,7 +1641,10 @@
             "black",
             "black",
             "10",
-            "9"
+            "9",
+            "06",
+            "93",
+            "93"
           ]
         ]
       },
@@ -1360,7 +1675,7 @@
         }
       ],
       "title": "Loop 1: Discrimination Task",
-      "_tab": "Scripts"
+      "_tab": "Content"
     },
     "9": {
       "id": "9",
@@ -1488,7 +1803,7 @@
         }
       ],
       "title": "Instructions 1",
-      "content": "<header>\n  <h1 style=\"font-size:50px;background-color:black;color:white\">Instructions</h1>\n</header>\n\n<main>\n  <p style=\"font-size:30px;text-align:justify; margin-left: 40px; margin-right: 40px; margin-top: 70px\"> In the following experiment, you will see three pictures on the screen on every trial. Your task is to identify which of these three images is different and indicate your answer by pressing one of the following keys: <b>V</b>  (<i>left</i>),  <b>G</b> (<i>center</i>)  or  <b>B</b>  (<i>right</i>).</p>\n  <p></p>\n  <p style=\"font-size:30px;text-align:justify; margin-left: 40px; margin-right: 40px\">After you have indicated your choice, you will receive feedback and you will also get to know the IDs for each picture on screen. Please keep in mind that you may need to use this information in a latter phase of the experiment.</p>\n</main>\n\n<footer>\n  <h1 style=\"font-size:40px;background-color:gray;color:white; margin-top: 25px; margin-bottom: 25px\">Press \"Space\" to start the experiment</h1>\n</footer>",
+      "content": "<header>\n  <h1 style=\"font-size:50px;background-color:black;color:white\">Instructions</h1>\n</header>\n\n<main>\n  <p style=\"font-size:30px;text-align:justify; margin-left: 40px; margin-right: 40px; margin-top: 70px\"> In the following experiment, you will see three pictures on the screen on every trial. Your task is to identify which of these three images is different and indicate your answer by pressing one of the following keys: <b>V</b>  (<i>left</i>),  <b>G</b> (<i>center</i>)  or  <b>B</b>  (<i>right</i>).</p>\n  <p></p>\n  <p style=\"font-size:30px;text-align:justify; margin-left: 40px; margin-right: 40px\">After you have indicated your choice, you will receive feedback and you will also get to know the IDs for each picture on screen. </p>\n</main>\n\n<footer>\n  <h1 style=\"font-size:40px;background-color:gray;color:white; margin-top: 25px; margin-bottom: 25px\">Press \"Space\" to start the experiment</h1>\n</footer>",
       "_tab": "Content"
     },
     "root": {
