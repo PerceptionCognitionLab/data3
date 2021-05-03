@@ -15,4 +15,3 @@ extractData=function(d){
                   "correct",
                   "rt")
   return(out)}
-
