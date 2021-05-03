@@ -1,7 +1,2 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
-317 055f64ef-5 1920 1080 es-ES 2021-05-03 04:52:54 America/Los_Angeles Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
-316 09da90fd-f 1920 1200 es-ES 2021-05-03 04:02:27 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
-117 33e27ce9-6 1920 1080 es-ES 2021-04-30 00:57:01 America/Los_Angeles Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
-117 ccca5e92-4 1920 1080 es-ES 2021-05-03 05:07:46 America/Los_Angeles Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
-317 74c58d20-a 1920 1080 es-ES 2021-05-03 04:49:52 America/Los_Angeles Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
-117 753a1fc3-e 1920 1080 es-ES 2021-05-03 05:02:26 America/Los_Angeles Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+117 c918b5f7-3 1920 1080 es-ES 2021-05-03 11:05:22 America/Los_Angeles Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
