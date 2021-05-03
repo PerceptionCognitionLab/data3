@@ -1,2 +1,5 @@
 participantID sessionID xres yres lang timeStamp timeZone agent
+4 15ac7972-2 1920 1080 en-US 2021-05-03 15:07:41 America/Los_Angeles Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+316 c8379283-2 1920 1200 es-ES 2021-05-03 15:03:21 America/Los_Angeles Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
 117 c918b5f7-3 1920 1080 es-ES 2021-05-03 11:05:22 America/Los_Angeles Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+68 e4fdd19e-d 1920 1080 de 2021-05-03 15:07:22 Europe/Berlin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
