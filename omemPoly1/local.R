@@ -9,9 +9,10 @@ extractData=function(d){
   rt=d[respEvent,]$duration
   out=data.frame(sid,same,diff,resp,correct,rt)
   colnames(out)=c("sid",
-		  "same",
-		  "different",
+                  "same",
+                  "different",
                   "resp",
-		  "correct",
+                  "correct",
                   "rt")
   return(out)}
+
