@@ -159,7 +159,7 @@ extractData=function(d){
   
   good <- !duplicated(cbind(dat_policies$timestamp,dat_policies$observation))
   data_slider <- dat_policies[good,]
-  data_slider$sid <- data_slider$url_pid
+  data_slider$sid <- data_slider$observation
   
   contentFile <- "../data3/covid_policy/sliderdata"
   write.csv(file = contentFile, data_slider, quote=T, row.names=FALSE)
